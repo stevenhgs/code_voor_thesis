@@ -1,0 +1,1 @@
+from pyxml2pdf import main

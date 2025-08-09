@@ -1,0 +1,88 @@
+from src.custom_classes.Relation import Relation
+
+config = {
+    "US7_0": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_1": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(3, 2), (5, 3), (6, 5), (7, 6), (8, 7), (9, 8)}),
+    },
+"US7_2": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set())
+    },
+"US7_3": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(6, 2), (8, 6), (10, 8), (12, 10)}),
+    },
+"US7_4": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_5": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_6": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_7": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_8": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(4, 24), (6, 24), (9, 24)}),
+    },
+"US7_9": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_10": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(8, 5), (12, 8), (14, 12), (16, 14)}),
+    },
+"US7_11": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_12": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_13": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_14": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_15": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_16": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_17": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(7, 5)}),
+    },
+"US7_18": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(4, 2), (8, 4)}),
+    },
+"US7_19": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_20": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_21": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(4, 2), (5, 4), (6, 5), (7, 6), (8, 7), (9, 8), (10, 9), (12, 10)}),
+    },
+"US7_22": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_23": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_24": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, {(5, 4), (7, 5)}),
+    },
+"US7_25": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_26": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+"US7_27": {
+        "DirectlyFollows": Relation("DirectlyFollows", 2, set()),
+    },
+}
