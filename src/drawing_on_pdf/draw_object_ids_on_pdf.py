@@ -97,7 +97,7 @@ def draw_object_ids_on_pdfs(pdf_input_directory_path, xml_input_directory_path, 
     doc.save(f'{output_path}{file_name}.pdf')
 
 
-def draw_object_ids_on_pdfs_multiple_pages(pdf_input_directory_path, xml_input_directory_path, output_path, file_name, nb_pages):xml
+def draw_object_ids_on_pdfs_multiple_pages(pdf_input_directory_path, xml_input_directory_path, output_path, file_name, nb_pages):
     # get this from XML
     PDF_HEIGHT = 540
     # PDF_HEIGHT = 405
