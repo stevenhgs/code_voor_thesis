@@ -1,0 +1,529 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 15,
+        "all pdf names": [
+            "US8_0",
+            "US8_1",
+            "US8_2",
+            "US8_3",
+            "US8_4",
+            "US8_5",
+            "US8_6",
+            "US8_7",
+            "US8_8",
+            "US8_9",
+            "US8_10",
+            "US8_11",
+            "US8_12",
+            "US8_13",
+            "US8_14"
+        ],
+        "nb pages filtered": 13,
+        "all filtered names": [
+            "US8_0",
+            "US8_1",
+            "US8_2",
+            "US8_3",
+            "US8_4",
+            "US8_5",
+            "US8_6",
+            "US8_7",
+            "US8_8",
+            "US8_9",
+            "US8_12",
+            "US8_13",
+            "US8_14"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 36,
+            "FN": 36,
+            "F1": 0.0,
+            "time": 0.03699541091918945,
+            "selected slide": "US8_0",
+            "selected slides:": [
+                "US8_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 36,
+            "FN": 36,
+            "F1": 0.0,
+            "time": 0.10099577903747559,
+            "selected slide": "US8_1",
+            "selected slides:": [
+                "US8_0",
+                "US8_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 0.7989590167999268,
+            "selected slide": "US8_3",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    21.191001527599585
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    21.191001527599585
+                ]
+            ]
+        },
+        "4": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 1.5759563446044922,
+            "selected slide": "US8_8",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    21.873859743637254
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    21.873859743637254
+                ]
+            ]
+        },
+        "5": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 2.4931652545928955,
+            "selected slide": "US8_9",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    23.039391542876956
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    23.039391542876956
+                ]
+            ]
+        },
+        "6": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 3.4195094108581543,
+            "selected slide": "US8_12",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    23.132549542803307
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    23.132549542803307
+                ]
+            ]
+        },
+        "7": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 4.736509084701538,
+            "selected slide": "US8_13",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    24.62924901961801
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    24.62924901961801
+                ]
+            ]
+        },
+        "8": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 6.516510009765625,
+            "selected slide": "US8_14",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14"
+            ],
+            "selected heuristic value": [
+                1.9073486328125e-06,
+                1.9073486328125e-06,
+                1.9073486328125e-06
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.481910512382193
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.481910512382193
+                ]
+            ]
+        },
+        "9": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 10.660940647125244,
+            "selected slide": "US8_4",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14",
+                "US8_4"
+            ],
+            "selected heuristic value": [
+                2.86102294921875e-06,
+                2.86102294921875e-06,
+                2.86102294921875e-06
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.9411534205672
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.9411534205672
+                ]
+            ]
+        },
+        "10": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 16.860193967819214,
+            "selected slide": "US8_6",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14",
+                "US8_4",
+                "US8_6"
+            ],
+            "selected heuristic value": [
+                7.62939453125e-06,
+                7.62939453125e-06,
+                7.62939453125e-06
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    55.67455797270821
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    55.67455797270821
+                ]
+            ]
+        },
+        "11": {
+            "TP": 33,
+            "FP": 3,
+            "FN": 3,
+            "F1": 0.9565217391304348,
+            "time": 22.853829860687256,
+            "selected slide": "US8_7",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14",
+                "US8_4",
+                "US8_6",
+                "US8_7"
+            ],
+            "selected heuristic value": [
+                1.52587890625e-05,
+                1.52587890625e-05,
+                1.52587890625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    71.51564160662521
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    71.51564160662521
+                ]
+            ]
+        },
+        "12": {
+            "TP": 36,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 32.89117240905762,
+            "selected slide": "US8_2",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14",
+                "US8_4",
+                "US8_6",
+                "US8_7",
+                "US8_2"
+            ],
+            "selected heuristic value": [
+                2.09808349609375e-05,
+                2.09808349609375e-05,
+                2.09808349609375e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    77.71551374660933
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InEnumeration('P1',) \u2227 YDimBeforeClosest('P0', 'P1')",
+                    12.270870591569896
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    77.71551374660933
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InEnumeration('P1',) \u2227 YDimBeforeClosest('P0', 'P1')",
+                    12.270870591569896
+                ]
+            ]
+        },
+        "13": {
+            "TP": 36,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 45.54996466636658,
+            "selected slide": "US8_5",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14",
+                "US8_4",
+                "US8_6",
+                "US8_7",
+                "US8_2",
+                "US8_5"
+            ],
+            "selected heuristic value": [
+                2.288818359375e-05,
+                2.288818359375e-05,
+                2.288818359375e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    115.63475379664462
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InEnumeration('P1',) \u2227 YDimBeforeClosest('P0', 'P1')",
+                    11.56347537966446
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    115.63475379664462
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InEnumeration('P1',) \u2227 YDimBeforeClosest('P0', 'P1')",
+                    11.56347537966446
+                ]
+            ]
+        },
+        "14": {
+            "TP": 36,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 59.58110189437866,
+            "selected slide": "US8_0",
+            "selected slides:": [
+                "US8_0",
+                "US8_1",
+                "US8_3",
+                "US8_8",
+                "US8_9",
+                "US8_12",
+                "US8_13",
+                "US8_14",
+                "US8_4",
+                "US8_6",
+                "US8_7",
+                "US8_2",
+                "US8_5",
+                "US8_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    127.5004497016913
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InEnumeration('P1',) \u2227 YDimBeforeClosest('P0', 'P1')",
+                    11.590949972881027
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    127.5004497016913
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InEnumeration('P1',) \u2227 YDimBeforeClosest('P0', 'P1')",
+                    11.590949972881027
+                ]
+            ]
+        }
+    }
+}

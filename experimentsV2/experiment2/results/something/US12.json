@@ -1,0 +1,528 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 3,
+        "nb pages": 10,
+        "all pdf names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_7",
+            "US12_8",
+            "US12_9"
+        ],
+        "nb pages filtered": 9,
+        "all filtered names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_8",
+            "US12_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 0,
+                    "f1_score": 1
+                },
+                "Together": {
+                    "nb_true_positives": 22,
+                    "nb_false_positives": 30,
+                    "nb_false_negatives": 8,
+                    "f1_score": 0.5365853658536586
+                }
+            },
+            "time": 10.741827487945557,
+            "selected slide": "US12_4",
+            "selected slides:": [
+                "US12_0",
+                "US12_1",
+                "US12_2",
+                "US12_3",
+                "US12_4"
+            ],
+            "selected heuristic value": [
+                -Infinity,
+                -Infinity,
+                -Infinity
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                        11.010179138836003
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAndOverlap('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P2', 'P0')",
+                        32.44343917311749
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 XDimEquals('P1', 'P2')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P2', 'P0')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 Text('P0',) \u2227 \u00acXDimCovers('P1', 'P0')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 Text('P0',) \u2227 XDimBefore('P0', 'P2')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P2', 'P3')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 YDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P3', 'P2') \u2227 \u00acText('P3',)",
+                        2.949403561192499
+                    ]
+                ],
+                "Together": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                        11.010179138836003
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAndOverlap('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P2', 'P0')",
+                        32.44343917311749
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 XDimEquals('P1', 'P2')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P2', 'P0')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 Text('P0',) \u2227 \u00acXDimCovers('P1', 'P0')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 Text('P0',) \u2227 XDimBefore('P0', 'P2')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P2', 'P3')",
+                        2.949403561192499
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 YDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P3', 'P2') \u2227 \u00acText('P3',)",
+                        2.949403561192499
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                        11.010179138836003
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAndOverlap('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P2', 'P0')",
+                        32.44343917311749
+                    ]
+                ],
+                "Together": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                        11.010179138836003
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                        6.776824858159819
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                        3.3884124290799096
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAndOverlap('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P2', 'P0')",
+                        32.44343917311749
+                    ]
+                ]
+            },
+            "order_data": {
+                "US12_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            7,
+                            8,
+                            4,
+                            5,
+                            6,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            8,
+                            2,
+                            3,
+                            9,
+                            4,
+                            10,
+                            5,
+                            11,
+                            6,
+                            7,
+                            12,
+                            13
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            5,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            5,
+                            2,
+                            6,
+                            3,
+                            7,
+                            4,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5,
+                            7,
+                            8,
+                            4,
+                            6,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            8,
+                            2,
+                            3,
+                            9,
+                            4,
+                            5,
+                            10,
+                            6,
+                            7,
+                            11,
+                            12
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            8,
+                            4,
+                            1,
+                            2,
+                            3,
+                            5,
+                            6,
+                            7
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            4,
+                            1,
+                            5,
+                            2,
+                            6,
+                            3,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            4,
+                            8,
+                            9,
+                            2,
+                            6,
+                            10,
+                            11,
+                            12,
+                            3,
+                            5,
+                            7,
+                            13,
+                            14,
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            8,
+                            9,
+                            2,
+                            10,
+                            4,
+                            11,
+                            6,
+                            12,
+                            3,
+                            13,
+                            5,
+                            14,
+                            7,
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            5,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            5,
+                            2,
+                            6,
+                            3,
+                            7,
+                            4,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            5,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            5,
+                            2,
+                            6,
+                            3,
+                            7,
+                            4,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US12_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        }
+    }
+}

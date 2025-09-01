@@ -1,0 +1,413 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 3,
+        "nb pages": 5,
+        "all pdf names": [
+            "BF1_0",
+            "BF1_1",
+            "BF1_2",
+            "BF1_3",
+            "BF1_4"
+        ],
+        "nb pages filtered": 5,
+        "all filtered names": [
+            "BF1_0",
+            "BF1_1",
+            "BF1_2",
+            "BF1_3",
+            "BF1_4"
+        ]
+    },
+    "data": {
+        "1": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 0,
+                    "f1_score": 1
+                },
+                "Together": {
+                    "nb_true_positives": 69,
+                    "nb_false_positives": 36,
+                    "nb_false_negatives": 0,
+                    "f1_score": 0.7931034482758621
+                }
+            },
+            "time": 10.364737510681152,
+            "selected slide": "BF1_4",
+            "selected slides:": [
+                "BF1_0",
+                "BF1_1",
+                "BF1_2",
+                "BF1_3",
+                "BF1_4"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 XDimBefore('P1', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P0', 'P2')",
+                        10.260372719759745
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P2', 'P0') \u2227 Text('P1',)",
+                        12.825465899699681
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        35.91130451915911
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P1', 'P2') \u2227 YDimBefore('P3', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 YDimBefore('P0', 'P2')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 \u00acText('P0',)",
+                        17.955652259579555
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P1', 'P0') \u2227 XDimCovers('P2', 'P0')",
+                        19.57432557645051
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- 2DimCovers('P0', 'P1') \u2227 XDimCovers('P2', 'P0') \u2227 Text('P1',)",
+                        70.46757207522182
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 Text('P1',)",
+                        45.02094882583617
+                    ]
+                ],
+                "Together": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 XDimBefore('P1', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P0', 'P2')",
+                        10.260372719759745
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P2', 'P0') \u2227 Text('P1',)",
+                        12.825465899699681
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        35.91130451915911
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P1', 'P2') \u2227 YDimBefore('P3', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 YDimBefore('P0', 'P2')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 \u00acText('P0',)",
+                        17.955652259579555
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P1', 'P0') \u2227 XDimCovers('P2', 'P0')",
+                        19.57432557645051
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- 2DimCovers('P0', 'P1') \u2227 XDimCovers('P2', 'P0') \u2227 Text('P1',)",
+                        70.46757207522182
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 Text('P1',)",
+                        45.02094882583617
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 XDimBefore('P1', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P0', 'P2')",
+                        10.260372719759745
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P2', 'P0') \u2227 Text('P1',)",
+                        12.825465899699681
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        35.91130451915911
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P1', 'P2') \u2227 YDimBefore('P3', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 YDimBefore('P0', 'P2')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 \u00acText('P0',)",
+                        17.955652259579555
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P1', 'P0') \u2227 XDimCovers('P2', 'P0')",
+                        19.57432557645051
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- 2DimCovers('P0', 'P1') \u2227 XDimCovers('P2', 'P0') \u2227 Text('P1',)",
+                        70.46757207522182
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 Text('P1',)",
+                        45.02094882583617
+                    ]
+                ],
+                "Together": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 XDimBefore('P1', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P0', 'P2')",
+                        10.260372719759745
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P2', 'P0') \u2227 Text('P1',)",
+                        12.825465899699681
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        35.91130451915911
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P1', 'P2') \u2227 YDimBefore('P3', 'P0')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 YDimBefore('P0', 'P2')",
+                        5.130186359879873
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 \u00acText('P0',)",
+                        17.955652259579555
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P1', 'P0') \u2227 XDimCovers('P2', 'P0')",
+                        19.57432557645051
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- 2DimCovers('P0', 'P1') \u2227 XDimCovers('P2', 'P0') \u2227 Text('P1',)",
+                        70.46757207522182
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 Text('P1',)",
+                        45.02094882583617
+                    ]
+                ]
+            },
+            "order_data": {
+                "BF1_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            9,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            11,
+                            10,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            5,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF1_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            9,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            11,
+                            12,
+                            13,
+                            10,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            5,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF1_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            9,
+                            10,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            9,
+                            10,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            6,
+                            7,
+                            8,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF1_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            8,
+                            9,
+                            0,
+                            1,
+                            2,
+                            3,
+                            5,
+                            6,
+                            7,
+                            10,
+                            11,
+                            4
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5,
+                            6,
+                            7,
+                            4,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF1_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            8,
+                            9,
+                            0,
+                            1,
+                            2,
+                            3,
+                            5,
+                            6,
+                            7,
+                            10,
+                            4
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5,
+                            6,
+                            7,
+                            4,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        }
+    }
+}

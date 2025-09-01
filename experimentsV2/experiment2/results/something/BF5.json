@@ -1,0 +1,463 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 3,
+        "nb pages": 11,
+        "all pdf names": [
+            "BF5_0",
+            "BF5_1",
+            "BF5_10",
+            "BF5_2",
+            "BF5_3",
+            "BF5_4",
+            "BF5_5",
+            "BF5_6",
+            "BF5_7",
+            "BF5_8",
+            "BF5_9"
+        ],
+        "nb pages filtered": 11,
+        "all filtered names": [
+            "BF5_0",
+            "BF5_1",
+            "BF5_10",
+            "BF5_2",
+            "BF5_3",
+            "BF5_4",
+            "BF5_5",
+            "BF5_6",
+            "BF5_7",
+            "BF5_8",
+            "BF5_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 0,
+                    "f1_score": 1
+                },
+                "Together": {
+                    "nb_true_positives": 18,
+                    "nb_false_positives": 94,
+                    "nb_false_negatives": 0,
+                    "f1_score": 0.27692307692307694
+                }
+            },
+            "time": 2.163118362426758,
+            "selected slide": "BF5_3",
+            "selected slides:": [
+                "BF5_0",
+                "BF5_1",
+                "BF5_10",
+                "BF5_2",
+                "BF5_3"
+            ],
+            "selected heuristic value": [
+                -Infinity,
+                -Infinity,
+                -Infinity
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P2') \u2227 XDimCovers('P0', 'P1') \u2227 Image('P1',)",
+                        6.732188152955398
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P2', 'P0') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P1') \u2227 Image('P0',)",
+                        16.830470382388498
+                    ]
+                ],
+                "Together": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P2') \u2227 XDimCovers('P0', 'P1') \u2227 Image('P1',)",
+                        6.732188152955398
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P2', 'P0') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P1') \u2227 Image('P0',)",
+                        16.830470382388498
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P2') \u2227 XDimCovers('P0', 'P1') \u2227 Image('P1',)",
+                        6.732188152955398
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P2', 'P0') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P1') \u2227 Image('P0',)",
+                        16.830470382388498
+                    ]
+                ],
+                "Together": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P2') \u2227 XDimCovers('P0', 'P1') \u2227 Image('P1',)",
+                        6.732188152955398
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P2', 'P0') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimCovers('P2', 'P0') \u2227 YDimCovers('P3', 'P1')",
+                        3.366094076477699
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestUnderAnd2DimCovered('P0', 'P1') \u2227 Image('P0',)",
+                        16.830470382388498
+                    ]
+                ]
+            },
+            "order_data": {
+                "BF5_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            10,
+                            11,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_10": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            10,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            11,
+                            12,
+                            8,
+                            9,
+                            13,
+                            14
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            8,
+                            9,
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "BF5_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            4,
+                            5,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        }
+    }
+}

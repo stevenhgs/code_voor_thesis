@@ -1,0 +1,4699 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 3,
+        "nb pages": 12,
+        "all pdf names": [
+            "US9_0",
+            "US9_1",
+            "US9_10",
+            "US9_11",
+            "US9_2",
+            "US9_3",
+            "US9_4",
+            "US9_5",
+            "US9_6",
+            "US9_7",
+            "US9_8",
+            "US9_9"
+        ],
+        "nb pages filtered": 10,
+        "all filtered names": [
+            "US9_0",
+            "US9_1",
+            "US9_2",
+            "US9_3",
+            "US9_4",
+            "US9_5",
+            "US9_6",
+            "US9_7",
+            "US9_8",
+            "US9_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 40,
+                    "f1_score": 0.0
+                },
+                "Together": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 37,
+                    "f1_score": 0.0
+                }
+            },
+            "time": 0.03699994087219238,
+            "selected slide": "US9_2",
+            "selected slides:": [
+                "US9_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -42
+            ],
+            "rules": {
+                "DirectlyFollows": [],
+                "Together": []
+            },
+            "filtered rules": {
+                "DirectlyFollows": [],
+                "Together": []
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "2": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 33,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.9041095890410958
+                },
+                "Together": {
+                    "nb_true_positives": 31,
+                    "nb_false_positives": 13,
+                    "nb_false_negatives": 6,
+                    "f1_score": 0.7654320987654321
+                }
+            },
+            "time": 1.1588821411132812,
+            "selected slide": "US9_3",
+            "selected slides:": [
+                "US9_2",
+                "US9_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -22
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        37.27862510729038
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.230528673854757
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        4.076842891284919
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        37.27862510729038
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.230528673854757
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        4.076842891284919
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "3": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 33,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.9041095890410958
+                },
+                "Together": {
+                    "nb_true_positives": 31,
+                    "nb_false_positives": 14,
+                    "nb_false_negatives": 6,
+                    "f1_score": 0.7560975609756098
+                }
+            },
+            "time": 2.8281044960021973,
+            "selected slide": "US9_0",
+            "selected slides:": [
+                "US9_2",
+                "US9_3",
+                "US9_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        39.868354642718856
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.867445245657697
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 Overlap('P0', 'P1') \u2227 Text('P1',)",
+                        4.289148415219232
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        39.868354642718856
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.867445245657697
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 Overlap('P0', 'P1') \u2227 Text('P1',)",
+                        4.289148415219232
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            19
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "4": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 33,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.9041095890410958
+                },
+                "Together": {
+                    "nb_true_positives": 31,
+                    "nb_false_positives": 14,
+                    "nb_false_negatives": 6,
+                    "f1_score": 0.7560975609756098
+                }
+            },
+            "time": 4.611293315887451,
+            "selected slide": "US9_9",
+            "selected slides:": [
+                "US9_2",
+                "US9_3",
+                "US9_0",
+                "US9_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -4
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        40.167244443375516
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.941111406420067
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 Overlap('P0', 'P1') \u2227 Text('P1',)",
+                        4.313703802140022
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        40.167244443375516
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.941111406420067
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 Overlap('P0', 'P1') \u2227 Text('P1',)",
+                        4.313703802140022
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            19
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "5": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 33,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.9041095890410958
+                },
+                "Together": {
+                    "nb_true_positives": 31,
+                    "nb_false_positives": 14,
+                    "nb_false_negatives": 6,
+                    "f1_score": 0.7560975609756098
+                }
+            },
+            "time": 6.100060224533081,
+            "selected slide": "US9_5",
+            "selected slides:": [
+                "US9_2",
+                "US9_3",
+                "US9_0",
+                "US9_9",
+                "US9_5"
+            ],
+            "selected heuristic value": [
+                1.52587890625e-05,
+                2.0,
+                -40
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        40.2406466309968
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.959207082555398
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 Overlap('P0', 'P1') \u2227 Text('P1',)",
+                        4.319735694185133
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        40.2406466309968
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        12.959207082555398
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 Overlap('P0', 'P1') \u2227 Text('P1',)",
+                        4.319735694185133
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            19
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "6": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 33,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.9041095890410958
+                },
+                "Together": {
+                    "nb_true_positives": 31,
+                    "nb_false_positives": 13,
+                    "nb_false_negatives": 6,
+                    "f1_score": 0.7654320987654321
+                }
+            },
+            "time": 8.656273126602173,
+            "selected slide": "US9_4",
+            "selected slides:": [
+                "US9_2",
+                "US9_3",
+                "US9_0",
+                "US9_9",
+                "US9_5",
+                "US9_4"
+            ],
+            "selected heuristic value": [
+                5.7220458984375e-05,
+                2.0,
+                -36
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        51.512925005644355
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        56.1305085428966
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        3.5081567839310375
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        51.512925005644355
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        56.1305085428966
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        3.5081567839310375
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "7": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 33,
+                    "nb_false_positives": 0,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.9041095890410958
+                },
+                "Together": {
+                    "nb_true_positives": 31,
+                    "nb_false_positives": 13,
+                    "nb_false_negatives": 6,
+                    "f1_score": 0.7654320987654321
+                }
+            },
+            "time": 12.13060975074768,
+            "selected slide": "US9_7",
+            "selected slides:": [
+                "US9_2",
+                "US9_3",
+                "US9_0",
+                "US9_9",
+                "US9_5",
+                "US9_4",
+                "US9_7"
+            ],
+            "selected heuristic value": [
+                0.0010986328125,
+                -Infinity,
+                -26
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        92.92487805888908
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        63.05787416929657
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        3.7092867158409746
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        92.92487805888908
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 Text('P0',)",
+                        63.05787416929657
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        3.7092867158409746
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        },
+        "8": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 39,
+                    "nb_false_positives": 14,
+                    "nb_false_negatives": 1,
+                    "f1_score": 0.8387096774193549
+                },
+                "Together": {
+                    "nb_true_positives": 30,
+                    "nb_false_positives": 6,
+                    "nb_false_negatives": 7,
+                    "f1_score": 0.821917808219178
+                }
+            },
+            "time": 25.102478504180908,
+            "selected slide": "US9_8",
+            "selected slides:": [
+                "US9_2",
+                "US9_3",
+                "US9_0",
+                "US9_9",
+                "US9_5",
+                "US9_4",
+                "US9_7",
+                "US9_8"
+            ],
+            "selected heuristic value": [
+                0.0009765625,
+                -Infinity,
+                -20
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        94.23380917288263
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 XDimOverlapsStart('P1', 'P0')",
+                        3.3654931847458083
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- InEnumeration('P0',) \u2227 InBulletPoint('P1',) \u2227 XDimOverlapsStart('P0', 'P2')",
+                        3.3654931847458083
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 \u00acXDimOverlapsStart('P1', 'P0')",
+                        21.16113592275525
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 YDimOverlapsStart('P2', 'P0')",
+                        3.5268559871258747
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 XDimOverlapsStart('P2', 'P1') \u2227 Text('P0',)",
+                        45.84912783263637
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 XDimBefore('P1', 'P2') \u2227 Text('P0',)",
+                        10.580567961377625
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 YDimBeforeClosest('P0', 'P1') \u2227 Text('P0',)",
+                        3.5268559871258747
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        3.5268559871258747
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                        94.23380917288263
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 XDimOverlapsStart('P1', 'P0')",
+                        3.3654931847458083
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- InEnumeration('P0',) \u2227 InBulletPoint('P1',) \u2227 XDimOverlapsStart('P0', 'P2')",
+                        3.3654931847458083
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 \u00acXDimOverlapsStart('P1', 'P0')",
+                        21.16113592275525
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 YDimOverlapsStart('P2', 'P0')",
+                        3.5268559871258747
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 XDimOverlapsStart('P2', 'P1') \u2227 Text('P0',)",
+                        45.84912783263637
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 XDimBefore('P1', 'P2') \u2227 Text('P0',)",
+                        10.580567961377625
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 \u00acInBulletPoint('P0',) \u2227 YDimBeforeClosest('P0', 'P1') \u2227 Text('P0',)",
+                        3.5268559871258747
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- Curve('P0',) \u2227 2DimCovers('P1', 'P0') \u2227 Text('P1',)",
+                        3.5268559871258747
+                    ]
+                ]
+            },
+            "order_data": {
+                "US9_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            8,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            9
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            18,
+                            19
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11,
+                            20
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            17
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            2
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ],
+                        [
+                            12
+                        ],
+                        [
+                            16
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ],
+                        [
+                            15
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            18,
+                            19
+                        ],
+                        [
+                            6,
+                            8
+                        ],
+                        [
+                            7,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            11
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ],
+                        [
+                            10
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            10,
+                            5
+                        ],
+                        [
+                            6,
+                            5
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            7,
+                            5
+                        ],
+                        [
+                            8,
+                            5
+                        ]
+                    ]
+                },
+                "US9_7": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            12
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                },
+                "US9_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": []
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2164 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 35,
+        "all pdf names": [
+            "presentatie_verdediging_demo_0",
+            "presentatie_verdediging_demo_1",
+            "presentatie_verdediging_demo_2",
+            "presentatie_verdediging_demo_3",
+            "presentatie_verdediging_demo_4",
+            "presentatie_verdediging_demo_5",
+            "presentatie_verdediging_demo_6",
+            "presentatie_verdediging_demo_7",
+            "presentatie_verdediging_demo_8",
+            "presentatie_verdediging_demo_9",
+            "presentatie_verdediging_demo_10",
+            "presentatie_verdediging_demo_11",
+            "presentatie_verdediging_demo_12",
+            "presentatie_verdediging_demo_13",
+            "presentatie_verdediging_demo_14",
+            "presentatie_verdediging_demo_15",
+            "presentatie_verdediging_demo_16",
+            "presentatie_verdediging_demo_17",
+            "presentatie_verdediging_demo_18",
+            "presentatie_verdediging_demo_19",
+            "presentatie_verdediging_demo_20",
+            "presentatie_verdediging_demo_21",
+            "presentatie_verdediging_demo_22",
+            "presentatie_verdediging_demo_23",
+            "presentatie_verdediging_demo_24",
+            "presentatie_verdediging_demo_25",
+            "presentatie_verdediging_demo_26",
+            "presentatie_verdediging_demo_27",
+            "presentatie_verdediging_demo_28",
+            "presentatie_verdediging_demo_29",
+            "presentatie_verdediging_demo_30",
+            "presentatie_verdediging_demo_31",
+            "presentatie_verdediging_demo_32",
+            "presentatie_verdediging_demo_33",
+            "presentatie_verdediging_demo_34"
+        ],
+        "nb pages filtered": 34,
+        "all filtered names": [
+            "presentatie_verdediging_demo_0",
+            "presentatie_verdediging_demo_1",
+            "presentatie_verdediging_demo_2",
+            "presentatie_verdediging_demo_3",
+            "presentatie_verdediging_demo_4",
+            "presentatie_verdediging_demo_5",
+            "presentatie_verdediging_demo_7",
+            "presentatie_verdediging_demo_8",
+            "presentatie_verdediging_demo_9",
+            "presentatie_verdediging_demo_10",
+            "presentatie_verdediging_demo_11",
+            "presentatie_verdediging_demo_12",
+            "presentatie_verdediging_demo_13",
+            "presentatie_verdediging_demo_14",
+            "presentatie_verdediging_demo_15",
+            "presentatie_verdediging_demo_16",
+            "presentatie_verdediging_demo_17",
+            "presentatie_verdediging_demo_18",
+            "presentatie_verdediging_demo_19",
+            "presentatie_verdediging_demo_20",
+            "presentatie_verdediging_demo_21",
+            "presentatie_verdediging_demo_22",
+            "presentatie_verdediging_demo_23",
+            "presentatie_verdediging_demo_24",
+            "presentatie_verdediging_demo_25",
+            "presentatie_verdediging_demo_26",
+            "presentatie_verdediging_demo_27",
+            "presentatie_verdediging_demo_28",
+            "presentatie_verdediging_demo_29",
+            "presentatie_verdediging_demo_30",
+            "presentatie_verdediging_demo_31",
+            "presentatie_verdediging_demo_32",
+            "presentatie_verdediging_demo_33",
+            "presentatie_verdediging_demo_34"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 81,
+            "F1": 0.0,
+            "time": 0.0261843204498291,
+            "selected slide": "presentatie_verdediging_demo_7",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -38
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 8,
+            "FP": 0,
+            "FN": 73,
+            "F1": 0.1797752808988764,
+            "time": 4.87667179107666,
+            "selected slide": "presentatie_verdediging_demo_11",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -28
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    24.590907896005866
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    24.590907896005866
+                ]
+            ]
+        },
+        "3": {
+            "TP": 20,
+            "FP": 0,
+            "FN": 61,
+            "F1": 0.39603960396039606,
+            "time": 17.224618196487427,
+            "selected slide": "presentatie_verdediging_demo_17",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -20
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    10.005802074136868
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    25.01450518534217
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    10.005802074136868
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    25.01450518534217
+                ]
+            ]
+        },
+        "4": {
+            "TP": 69,
+            "FP": 0,
+            "FN": 12,
+            "F1": 0.92,
+            "time": 37.51065540313721,
+            "selected slide": "presentatie_verdediging_demo_5",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -24
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    39.831357419048004
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.851412759788445
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    22.128531899471113
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    39.831357419048004
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    22.128531899471113
+                ]
+            ]
+        },
+        "5": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 64.01872396469116,
+            "selected slide": "presentatie_verdediging_demo_0",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    40.91279655771825
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    13.63759885257275
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    22.729331420954587
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    40.91279655771825
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    13.63759885257275
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    22.729331420954587
+                ]
+            ]
+        },
+        "6": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 90.95370960235596,
+            "selected slide": "presentatie_verdediging_demo_27",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    41.316714554011
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    13.772238184670332
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    22.95373030778389
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    41.316714554011
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    13.772238184670332
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    22.95373030778389
+                ]
+            ]
+        },
+        "7": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 119.19292974472046,
+            "selected slide": "presentatie_verdediging_demo_24",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    41.70078359908458
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    13.90026119969486
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.167101999491436
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    41.70078359908458
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    13.90026119969486
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.167101999491436
+                ]
+            ]
+        },
+        "8": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 147.4661979675293,
+            "selected slide": "presentatie_verdediging_demo_25",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.01377822679813
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.004592742266045
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.34098790377674
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.01377822679813
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.004592742266045
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.34098790377674
+                ]
+            ]
+        },
+        "9": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 176.80808281898499,
+            "selected slide": "presentatie_verdediging_demo_20",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.314721910117136
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.104907303372379
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.508178838953967
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.314721910117136
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.104907303372379
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.508178838953967
+                ]
+            ]
+        },
+        "10": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 207.42180156707764,
+            "selected slide": "presentatie_verdediging_demo_19",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.44484383332085
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.148281277773616
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.580468796289363
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.44484383332085
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.148281277773616
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.580468796289363
+                ]
+            ]
+        },
+        "11": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 237.34655213356018,
+            "selected slide": "presentatie_verdediging_demo_21",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.54302472994284
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.181008243314281
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.635013738857133
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.54302472994284
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.181008243314281
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.635013738857133
+                ]
+            ]
+        },
+        "12": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 267.6565291881561,
+            "selected slide": "presentatie_verdediging_demo_22",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.639987809055874
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.21332926968529
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.688882116142153
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.639987809055874
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.21332926968529
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.688882116142153
+                ]
+            ]
+        },
+        "13": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 298.27990198135376,
+            "selected slide": "presentatie_verdediging_demo_26",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.73576291205275
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.245254304017582
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.74209050669597
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.73576291205275
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.245254304017582
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.74209050669597
+                ]
+            ]
+        },
+        "14": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 329.55646800994873,
+            "selected slide": "presentatie_verdediging_demo_28",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.830378796739026
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.276792932246343
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.794654887077236
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.830378796739026
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.276792932246343
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.794654887077236
+                ]
+            ]
+        },
+        "15": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 360.82121562957764,
+            "selected slide": "presentatie_verdediging_demo_29",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.89916995790475
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.299723319301584
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.83287219883597
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.89916995790475
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.299723319301584
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.83287219883597
+                ]
+            ]
+        },
+        "16": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 392.63245701789856,
+            "selected slide": "presentatie_verdediging_demo_32",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.96736104314433
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.32245368104811
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.870756135080185
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.96736104314433
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.32245368104811
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.870756135080185
+                ]
+            ]
+        },
+        "17": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 424.3750538825989,
+            "selected slide": "presentatie_verdediging_demo_23",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23"
+            ],
+            "selected heuristic value": [
+                1.862645149230957e-08,
+                1.0,
+                -28
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    43.034962431098535
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.344987477032845
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.90831246172141
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    43.034962431098535
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    14.344987477032845
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.90831246172141
+                ]
+            ]
+        },
+        "18": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 463.42978382110596,
+            "selected slide": "presentatie_verdediging_demo_1",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1"
+            ],
+            "selected heuristic value": [
+                1.430511474609375e-06,
+                1.0,
+                -22
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    61.17953388736777
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    18.82447196534393
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.53058995667991
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    61.17953388736777
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    18.82447196534393
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    23.53058995667991
+                ]
+            ]
+        },
+        "19": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 503.18823528289795,
+            "selected slide": "presentatie_verdediging_demo_15",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15"
+            ],
+            "selected heuristic value": [
+                1.9073486328125e-05,
+                1.0,
+                -18
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    77.8015598449149
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 ClosestYDimAfterAndInEnumeration('P0', 'P2')",
+                    18.306249375274096
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    32.03593640672967
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    77.8015598449149
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 ClosestYDimAfterAndInEnumeration('P0', 'P2')",
+                    18.306249375274096
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    32.03593640672967
+                ]
+            ]
+        },
+        "20": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 546.9791884422302,
+            "selected slide": "presentatie_verdediging_demo_4",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4"
+            ],
+            "selected heuristic value": [
+                2.288818359375e-05,
+                1.0,
+                -17
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    94.15065616224436
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.383552054081452
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    22.416822895772466
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    94.15065616224436
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.383552054081452
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    22.416822895772466
+                ]
+            ]
+        },
+        "21": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 592.8585860729218,
+            "selected slide": "presentatie_verdediging_demo_9",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9"
+            ],
+            "selected heuristic value": [
+                3.814697265625e-05,
+                1.0,
+                -18
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    93.44790392620911
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    35.59920149569871
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    31.14930130873637
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    93.44790392620911
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    35.59920149569871
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    31.14930130873637
+                ]
+            ]
+        },
+        "22": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 642.6936082839966,
+            "selected slide": "presentatie_verdediging_demo_18",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18"
+            ],
+            "selected heuristic value": [
+                4.57763671875e-05,
+                1.0,
+                -17
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    132.71065154443073
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    34.247910075982126
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.96692131648436
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    132.71065154443073
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    34.247910075982126
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.96692131648436
+                ]
+            ]
+        },
+        "23": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 694.5251340866089,
+            "selected slide": "presentatie_verdediging_demo_13",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13"
+            ],
+            "selected heuristic value": [
+                0.0001220703125,
+                1.0,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    155.85619044425817
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    33.698635771731496
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.48630630026506
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    155.85619044425817
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    33.698635771731496
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.48630630026506
+                ]
+            ]
+        },
+        "24": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 748.164056301117,
+            "selected slide": "presentatie_verdediging_demo_14",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14"
+            ],
+            "selected heuristic value": [
+                0.0001220703125,
+                1.0,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    171.23235017025726
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    33.41119027712337
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.234791492482948
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    171.23235017025726
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    33.41119027712337
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.234791492482948
+                ]
+            ]
+        },
+        "25": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 802.9040234088898,
+            "selected slide": "presentatie_verdediging_demo_8",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8"
+            ],
+            "selected heuristic value": [
+                0.00048828125,
+                1.0,
+                -11
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    171.46353238681897
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    37.638336377594406
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.27426162701787
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    171.46353238681897
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    37.638336377594406
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    29.27426162701787
+                ]
+            ]
+        },
+        "26": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 858.6002786159515,
+            "selected slide": "presentatie_verdediging_demo_2",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2"
+            ],
+            "selected heuristic value": [
+                0.00146484375,
+                1.0,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    171.44701888726087
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    37.63471146305726
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    33.4530768560509
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    171.44701888726087
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    37.63471146305726
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    33.4530768560509
+                ]
+            ]
+        },
+        "27": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 914.6379833221436,
+            "selected slide": "presentatie_verdediging_demo_10",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10"
+            ],
+            "selected heuristic value": [
+                0.001953125,
+                1.0,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    193.29866678084517
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    37.01463831973631
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.901900728654496
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    193.29866678084517
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    37.01463831973631
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.901900728654496
+                ]
+            ]
+        },
+        "28": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 971.6462044715881,
+            "selected slide": "presentatie_verdediging_demo_3",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3"
+            ],
+            "selected heuristic value": [
+                0.00390625,
+                1.0,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    197.22022206835473
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    36.978791637816514
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.870037011392455
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    197.22022206835473
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    36.978791637816514
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.870037011392455
+                ]
+            ]
+        },
+        "29": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1028.295294046402,
+            "selected slide": "presentatie_verdediging_demo_16",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16"
+            ],
+            "selected heuristic value": [
+                0.00390625,
+                1.0,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    211.54269249184654
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    36.61315831589651
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.545029614130236
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    211.54269249184654
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    36.61315831589651
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.545029614130236
+                ]
+            ]
+        },
+        "30": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1085.2648918628693,
+            "selected slide": "presentatie_verdediging_demo_31",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16",
+                "presentatie_verdediging_demo_31"
+            ],
+            "selected heuristic value": [
+                0.005859375,
+                1.0,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    215.3354144407764
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    36.56639113145259
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.503458783513416
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    215.3354144407764
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    36.56639113145259
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.503458783513416
+                ]
+            ]
+        },
+        "31": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1144.5991213321686,
+            "selected slide": "presentatie_verdediging_demo_34",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16",
+                "presentatie_verdediging_demo_31",
+                "presentatie_verdediging_demo_34"
+            ],
+            "selected heuristic value": [
+                0.005859375,
+                1.0,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    213.87824029573267
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    48.42526195375079
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.2835079691672
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    213.87824029573267
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    48.42526195375079
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.2835079691672
+                ]
+            ]
+        },
+        "32": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1205.068187713623,
+            "selected slide": "presentatie_verdediging_demo_30",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16",
+                "presentatie_verdediging_demo_31",
+                "presentatie_verdediging_demo_34",
+                "presentatie_verdediging_demo_30"
+            ],
+            "selected heuristic value": [
+                0.0078125,
+                1.0,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    224.52199958141696
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    48.111857053160776
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.07457136877385
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    224.52199958141696
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    48.111857053160776
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    32.07457136877385
+                ]
+            ]
+        },
+        "33": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1269.7590310573578,
+            "selected slide": "presentatie_verdediging_demo_33",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16",
+                "presentatie_verdediging_demo_31",
+                "presentatie_verdediging_demo_34",
+                "presentatie_verdediging_demo_30",
+                "presentatie_verdediging_demo_33"
+            ],
+            "selected heuristic value": [
+                0.0078125,
+                1.0,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 ClosestYDimAfterAndInBulletPoint('P0', 'P2')",
+                    231.6370060267434
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    47.924897798636565
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.94993186575771
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 ClosestYDimAfterAndInBulletPoint('P0', 'P2')",
+                    231.6370060267434
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    47.924897798636565
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.94993186575771
+                ]
+            ]
+        },
+        "34": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1332.8330116271973,
+            "selected slide": "presentatie_verdediging_demo_12",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16",
+                "presentatie_verdediging_demo_31",
+                "presentatie_verdediging_demo_34",
+                "presentatie_verdediging_demo_30",
+                "presentatie_verdediging_demo_33",
+                "presentatie_verdediging_demo_12"
+            ],
+            "selected heuristic value": [
+                0.0078125,
+                1.0,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 ClosestYDimAfterAndInBulletPoint('P0', 'P2')",
+                    238.72062719439435
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    47.74412543887887
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.82941695925258
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 ClosestYDimAfterAndInBulletPoint('P0', 'P2')",
+                    238.72062719439435
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    47.74412543887887
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.82941695925258
+                ]
+            ]
+        },
+        "35": {
+            "TP": 81,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1395.7622096538544,
+            "selected slide": "presentatie_verdediging_demo_0",
+            "selected slides:": [
+                "presentatie_verdediging_demo_7",
+                "presentatie_verdediging_demo_11",
+                "presentatie_verdediging_demo_17",
+                "presentatie_verdediging_demo_5",
+                "presentatie_verdediging_demo_0",
+                "presentatie_verdediging_demo_27",
+                "presentatie_verdediging_demo_24",
+                "presentatie_verdediging_demo_25",
+                "presentatie_verdediging_demo_20",
+                "presentatie_verdediging_demo_19",
+                "presentatie_verdediging_demo_21",
+                "presentatie_verdediging_demo_22",
+                "presentatie_verdediging_demo_26",
+                "presentatie_verdediging_demo_28",
+                "presentatie_verdediging_demo_29",
+                "presentatie_verdediging_demo_32",
+                "presentatie_verdediging_demo_23",
+                "presentatie_verdediging_demo_1",
+                "presentatie_verdediging_demo_15",
+                "presentatie_verdediging_demo_4",
+                "presentatie_verdediging_demo_9",
+                "presentatie_verdediging_demo_18",
+                "presentatie_verdediging_demo_13",
+                "presentatie_verdediging_demo_14",
+                "presentatie_verdediging_demo_8",
+                "presentatie_verdediging_demo_2",
+                "presentatie_verdediging_demo_10",
+                "presentatie_verdediging_demo_3",
+                "presentatie_verdediging_demo_16",
+                "presentatie_verdediging_demo_31",
+                "presentatie_verdediging_demo_34",
+                "presentatie_verdediging_demo_30",
+                "presentatie_verdediging_demo_33",
+                "presentatie_verdediging_demo_12",
+                "presentatie_verdediging_demo_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 ClosestYDimAfterAndInBulletPoint('P0', 'P2')",
+                    242.36591712280145
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    47.67854107333799
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.785694048891994
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 ClosestYDimAfterAndInBulletPoint('P0', 'P2')",
+                    242.36591712280145
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P0', 'P2') \u2227 ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    47.67854107333799
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    31.785694048891994
+                ]
+            ]
+        }
+    }
+}

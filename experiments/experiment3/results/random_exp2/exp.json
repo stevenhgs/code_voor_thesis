@@ -1,0 +1,3299 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 41,
+        "all pdf names": [
+            "exp_0",
+            "exp_1",
+            "exp_2",
+            "exp_3",
+            "exp_4",
+            "exp_5",
+            "exp_6",
+            "exp_7",
+            "exp_8",
+            "exp_9",
+            "exp_10",
+            "exp_11",
+            "exp_12",
+            "exp_13",
+            "exp_14",
+            "exp_15",
+            "exp_16",
+            "exp_17",
+            "exp_18",
+            "exp_19",
+            "exp_20",
+            "exp_21",
+            "exp_22",
+            "exp_23",
+            "exp_24",
+            "exp_25",
+            "exp_26",
+            "exp_27",
+            "exp_28",
+            "exp_29",
+            "exp_30",
+            "exp_31",
+            "exp_32",
+            "exp_33",
+            "exp_34",
+            "exp_35",
+            "exp_36",
+            "exp_37",
+            "exp_38",
+            "exp_39",
+            "exp_40"
+        ],
+        "nb pages filtered": 41,
+        "all filtered names": [
+            "exp_0",
+            "exp_1",
+            "exp_2",
+            "exp_3",
+            "exp_4",
+            "exp_5",
+            "exp_6",
+            "exp_7",
+            "exp_8",
+            "exp_9",
+            "exp_10",
+            "exp_11",
+            "exp_12",
+            "exp_13",
+            "exp_14",
+            "exp_15",
+            "exp_16",
+            "exp_17",
+            "exp_18",
+            "exp_19",
+            "exp_20",
+            "exp_21",
+            "exp_22",
+            "exp_23",
+            "exp_24",
+            "exp_25",
+            "exp_26",
+            "exp_27",
+            "exp_28",
+            "exp_29",
+            "exp_30",
+            "exp_31",
+            "exp_32",
+            "exp_33",
+            "exp_34",
+            "exp_35",
+            "exp_36",
+            "exp_37",
+            "exp_38",
+            "exp_39",
+            "exp_40"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.0,
+            "time": 0.012999296188354492,
+            "selected slide": "exp_21",
+            "selected slides:": [
+                "exp_21"
+            ],
+            "selected heuristic value": [
+                0.048644891164652426,
+                0.35051349269197407,
+                0.5415235340000573
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 24,
+            "FP": 42,
+            "FN": 42,
+            "F1": 0.5333333333333333,
+            "time": 0.5924909114837646,
+            "selected slide": "exp_20",
+            "selected slides:": [
+                "exp_21",
+                "exp_20"
+            ],
+            "selected heuristic value": [
+                0.06853316252304387,
+                0.7476012912932847,
+                0.651322297554454
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    13.938658258857187
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    13.938658258857187
+                ]
+            ]
+        },
+        "3": {
+            "TP": 24,
+            "FP": 42,
+            "FN": 42,
+            "F1": 0.5333333333333333,
+            "time": 1.4269685745239258,
+            "selected slide": "exp_19",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19"
+            ],
+            "selected heuristic value": [
+                0.014295543788973575,
+                0.3030171772687429,
+                0.6209145874589476
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P0',) \u2227 ClosestUnderAndOverlap('P1', 'P0')",
+                    6.3716664475523705
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    12.743332895104741
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    12.743332895104741
+                ]
+            ]
+        },
+        "4": {
+            "TP": 28,
+            "FP": 38,
+            "FN": 38,
+            "F1": 0.5833333333333334,
+            "time": 2.324127435684204,
+            "selected slide": "exp_26",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26"
+            ],
+            "selected heuristic value": [
+                0.01987938907359399,
+                0.7395498691292526,
+                0.6132262895497587
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    11.944874880830342
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    11.944874880830342
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    11.944874880830342
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    11.944874880830342
+                ]
+            ]
+        },
+        "5": {
+            "TP": 28,
+            "FP": 38,
+            "FN": 38,
+            "F1": 0.5833333333333334,
+            "time": 3.6364972591400146,
+            "selected slide": "exp_18",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18"
+            ],
+            "selected heuristic value": [
+                0.2461339762378254,
+                0.6813142960630248,
+                0.8650455065805507
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    11.359645987918062
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    5.679822993959031
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    11.359645987918062
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    11.359645987918062
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    11.359645987918062
+                ]
+            ]
+        },
+        "6": {
+            "TP": 4,
+            "FP": 62,
+            "FN": 62,
+            "F1": 0.1111111111111111,
+            "time": 6.366328001022339,
+            "selected slide": "exp_28",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28"
+            ],
+            "selected heuristic value": [
+                0.056783346154878345,
+                0.1496281190557166,
+                0.6272262268749601
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    11.1486016261567
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    5.57430081307835
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    5.57430081307835
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P1', 'P0') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    8.361451219617525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.787150406539175
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    11.1486016261567
+                ]
+            ]
+        },
+        "7": {
+            "TP": 20,
+            "FP": 46,
+            "FN": 46,
+            "F1": 0.45454545454545453,
+            "time": 9.806276798248291,
+            "selected slide": "exp_33",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33"
+            ],
+            "selected heuristic value": [
+                0.03674646510081114,
+                0.15574503480940616,
+                0.138362521739948
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    10.504607322352395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    10.504607322352395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    5.252303661176198
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    5.252303661176198
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P1', 'P0') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.878455491764297
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.626151830588099
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    10.504607322352395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    10.504607322352395
+                ]
+            ]
+        },
+        "8": {
+            "TP": 20,
+            "FP": 46,
+            "FN": 46,
+            "F1": 0.45454545454545453,
+            "time": 13.13871455192566,
+            "selected slide": "exp_30",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30"
+            ],
+            "selected heuristic value": [
+                0.05067805986372631,
+                0.55884441551923,
+                0.5178569866071632
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    10.546594006803161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    10.546594006803161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    5.273297003401581
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    5.273297003401581
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P1', 'P0') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.909945505102371
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.6366485017007903
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    10.546594006803161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    10.546594006803161
+                ]
+            ]
+        },
+        "9": {
+            "TP": 20,
+            "FP": 46,
+            "FN": 46,
+            "F1": 0.45454545454545453,
+            "time": 17.25175166130066,
+            "selected slide": "exp_17",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17"
+            ],
+            "selected heuristic value": [
+                0.0651617596448909,
+                0.47392202600096167,
+                0.407395510941416
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    20.180205900679898
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    10.090102950339949
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    5.045051475169974
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    5.045051475169974
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P1', 'P0') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.567577212754962
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.522525737584987
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    20.180205900679898
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    10.090102950339949
+                ]
+            ]
+        },
+        "10": {
+            "TP": 20,
+            "FP": 46,
+            "FN": 46,
+            "F1": 0.45454545454545453,
+            "time": 21.258934259414673,
+            "selected slide": "exp_29",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29"
+            ],
+            "selected heuristic value": [
+                0.01046564562402541,
+                0.431488196050387,
+                0.8716820847585585
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    20.199217435686872
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    10.099608717843436
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    5.049804358921718
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    5.049804358921718
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P1', 'P0') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.574706538382577
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.524902179460859
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    20.199217435686872
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    10.099608717843436
+                ]
+            ]
+        },
+        "11": {
+            "TP": 16,
+            "FP": 50,
+            "FN": 50,
+            "F1": 0.3902439024390244,
+            "time": 25.515332221984863,
+            "selected slide": "exp_25",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25"
+            ],
+            "selected heuristic value": [
+                0.06476267180306905,
+                0.36709406940790745,
+                0.9423765412047624
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    29.272123928689965
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acCurve('P0',)",
+                    9.757374642896655
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    4.878687321448328
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    4.878687321448328
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.318030982172491
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.439343660724164
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    29.272123928689965
+                ]
+            ]
+        },
+        "12": {
+            "TP": 16,
+            "FP": 50,
+            "FN": 50,
+            "F1": 0.3902439024390244,
+            "time": 30.31090998649597,
+            "selected slide": "exp_16",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16"
+            ],
+            "selected heuristic value": [
+                0.026130212437098677,
+                0.8790699334749805,
+                0.015234658310512184
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    28.7981728334956
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    9.599390944498532
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    9.599390944498532
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    4.799695472249266
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.1995432083739
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.399847736124633
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    28.7981728334956
+                ]
+            ]
+        },
+        "13": {
+            "TP": 16,
+            "FP": 50,
+            "FN": 50,
+            "F1": 0.3902439024390244,
+            "time": 34.79915475845337,
+            "selected slide": "exp_35",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35"
+            ],
+            "selected heuristic value": [
+                0.008398753531457581,
+                0.657523976719199,
+                0.06758004968024256
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    28.82344088845399
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    9.607813629484664
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    9.607813629484664
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    4.803906814742332
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.205860222113498
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.401953407371166
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    28.82344088845399
+                ]
+            ]
+        },
+        "14": {
+            "TP": 16,
+            "FP": 50,
+            "FN": 50,
+            "F1": 0.3902439024390244,
+            "time": 39.35853099822998,
+            "selected slide": "exp_27",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27"
+            ],
+            "selected heuristic value": [
+                0.042021263467080905,
+                0.2202214577729561,
+                0.7794183147243647
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    28.923904968070552
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    9.641301656023517
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    9.641301656023517
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    4.820650828011758
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.230976242017638
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.410325414005879
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    28.923904968070552
+                ]
+            ]
+        },
+        "15": {
+            "TP": 16,
+            "FP": 50,
+            "FN": 50,
+            "F1": 0.3902439024390244,
+            "time": 44.041122913360596,
+            "selected slide": "exp_23",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23"
+            ],
+            "selected heuristic value": [
+                0.09568733291074227,
+                0.25421813023759876,
+                0.9492614205823963
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    37.60400276107714
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    9.401000690269285
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 \u00acText('P1',)",
+                    9.401000690269285
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 \u00acArrow('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    4.7005003451346425
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P1', 'P0') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.050750517701964
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.3502501725673213
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    37.60400276107714
+                ]
+            ]
+        },
+        "16": {
+            "TP": 16,
+            "FP": 50,
+            "FN": 50,
+            "F1": 0.3902439024390244,
+            "time": 50.410649061203,
+            "selected slide": "exp_9",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9"
+            ],
+            "selected heuristic value": [
+                0.09951495692779311,
+                0.22189846005076375,
+                0.8747566392286723
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    38.959486214845
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    9.73987155371125
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    9.73987155371125
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.304903665283438
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P1',) \u2227 YDimCovers('P0', 'P2')",
+                    4.869935776855625
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 OnTop('P2', 'P0')",
+                    2.4349678884278125
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    4.869935776855625
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    38.959486214845
+                ]
+            ]
+        },
+        "17": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 55.42802691459656,
+            "selected slide": "exp_40",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40"
+            ],
+            "selected heuristic value": [
+                0.04306424240175377,
+                0.8705882802111653,
+                0.3000509371705107
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    40.05471276905608
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.01367819226402
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.01367819226402
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.510258644198015
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    17.523936836462035
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    40.05471276905608
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.01367819226402
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.01367819226402
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    17.523936836462035
+                ]
+            ]
+        },
+        "18": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 60.50835132598877,
+            "selected slide": "exp_38",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38"
+            ],
+            "selected heuristic value": [
+                0.0019920057259903423,
+                0.656430795779419,
+                0.5440825540049111
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    40.14599338240957
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.036498345602393
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.036498345602393
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.527373759201795
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    17.563872104804187
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    40.14599338240957
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.036498345602393
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.036498345602393
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    17.563872104804187
+                ]
+            ]
+        },
+        "19": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 65.27285361289978,
+            "selected slide": "exp_22",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22"
+            ],
+            "selected heuristic value": [
+                0.10335008795538336,
+                0.6508159804999194,
+                0.6398666479978986
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    40.23667835946117
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.059169589865293
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.059169589865293
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    7.54437719239897
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    17.603546782264264
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    40.23667835946117
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.059169589865293
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.059169589865293
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    17.603546782264264
+                ]
+            ]
+        },
+        "20": {
+            "TP": 48,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.8421052631578947,
+            "time": 80.71779823303223,
+            "selected slide": "exp_31",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31"
+            ],
+            "selected heuristic value": [
+                0.06161145609984775,
+                0.001346485333875047,
+                0.20931678598705328
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.9575257863106
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.73938144657765
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.73938144657765
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.109072169866472
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 OnTop('P2', 'P0')",
+                    5.369690723288825
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.369690723288825
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P3')",
+                    2.6848453616444123
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1') \u2227 AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    5.369690723288825
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 Overlap('P1', 'P2')",
+                    2.6848453616444123
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.9575257863106
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.73938144657765
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.73938144657765
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.109072169866472
+                ]
+            ]
+        },
+        "21": {
+            "TP": 48,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.8421052631578947,
+            "time": 96.53482484817505,
+            "selected slide": "exp_2",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2"
+            ],
+            "selected heuristic value": [
+                0.18869201619559284,
+                0.25343203472533016,
+                0.5646997015962779
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    43.02386206224229
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.755965515560572
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.755965515560572
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.133948273340856
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 OnTop('P2', 'P0')",
+                    5.377982757780286
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.377982757780286
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P3')",
+                    2.688991378890143
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1') \u2227 AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    5.377982757780286
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 Overlap('P1', 'P2')",
+                    2.688991378890143
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    43.02386206224229
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    10.755965515560572
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.755965515560572
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.133948273340856
+                ]
+            ]
+        },
+        "22": {
+            "TP": 48,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.8421052631578947,
+            "time": 112.76165747642517,
+            "selected slide": "exp_8",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8"
+            ],
+            "selected heuristic value": [
+                0.01431266039746748,
+                0.45560062664153267,
+                0.7663329103193417
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    41.914357125795746
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.19647320362234
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.478589281448937
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.717883922173405
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 OnTop('P2', 'P0')",
+                    5.239294640724468
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.239294640724468
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P3')",
+                    2.619647320362234
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1') \u2227 AtBaseOfArrow('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P2')",
+                    5.239294640724468
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 Overlap('P1', 'P2')",
+                    2.619647320362234
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    41.914357125795746
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.19647320362234
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.478589281448937
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.717883922173405
+                ]
+            ]
+        },
+        "23": {
+            "TP": 48,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.8421052631578947,
+            "time": 133.141610622406,
+            "selected slide": "exp_1",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1"
+            ],
+            "selected heuristic value": [
+                0.028658544258763463,
+                0.4653042377637193,
+                0.2098432725826418
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.46837542519037
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.54273464074398
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.617093856297592
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.925640784446387
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 OnTop('P2', 'P0')",
+                    5.308546928148796
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    5.308546928148796
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.308546928148796
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P3')",
+                    2.654273464074398
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1') \u2227 AtTipOfArrow('P1', 'P2')",
+                    5.308546928148796
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimBeforeClosest('P1', 'P0') \u2227 Curve('P1',) \u2227 XDimCovers('P0', 'P2')",
+                    2.654273464074398
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.46837542519037
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.54273464074398
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.617093856297592
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.925640784446387
+                ]
+            ]
+        },
+        "24": {
+            "TP": 48,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.8421052631578947,
+            "time": 154.92658495903015,
+            "selected slide": "exp_37",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37"
+            ],
+            "selected heuristic value": [
+                0.0088726652184139,
+                0.35837195641470443,
+                0.7440621632461372
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    41.565984197060395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    41.565984197060395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.391496049265099
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.587244073897647
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 OnTop('P2', 'P0')",
+                    5.195748024632549
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    5.195748024632549
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.195748024632549
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P3')",
+                    2.5978740123162747
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1') \u2227 AtTipOfArrow('P1', 'P2')",
+                    5.195748024632549
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Curve('P1',) \u2227 XDimBeforeClosest('P1', 'P0') \u2227 XDimCovers('P0', 'P2')",
+                    2.5978740123162747
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    41.565984197060395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    41.565984197060395
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.391496049265099
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.587244073897647
+                ]
+            ]
+        },
+        "25": {
+            "TP": 48,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.8421052631578947,
+            "time": 176.49223589897156,
+            "selected slide": "exp_24",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24"
+            ],
+            "selected heuristic value": [
+                0.007301974953313306,
+                0.05284262637018833,
+                0.807718115902616
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    41.6195905255161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    41.6195905255161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.404897631379026
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.607346447068538
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 OnTop('P2', 'P0')",
+                    5.202448815689513
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    5.202448815689513
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.202448815689513
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 AtTipOfArrow('P0', 'P3')",
+                    2.6012244078447564
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1') \u2227 AtTipOfArrow('P1', 'P2')",
+                    5.202448815689513
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Curve('P1',) \u2227 XDimBeforeClosest('P1', 'P0') \u2227 XDimCovers('P0', 'P2')",
+                    2.6012244078447564
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    41.6195905255161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    41.6195905255161
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.404897631379026
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.607346447068538
+                ]
+            ]
+        },
+        "26": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 187.09721183776855,
+            "selected slide": "exp_13",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13"
+            ],
+            "selected heuristic value": [
+                0.12188127673158977,
+                0.7198836337330075,
+                0.5473844566120738
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.11353739927795
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.11353739927795
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.528384349819488
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.792576524729231
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimOverlapsStart('P0', 'P1') \u2227 Image('P0',) \u2227 \u00acArrow('P1',)",
+                    5.264192174909744
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.32096087454872
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.11353739927795
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.11353739927795
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.528384349819488
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.792576524729231
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.32096087454872
+                ]
+            ]
+        },
+        "27": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 199.68112564086914,
+            "selected slide": "exp_5",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5"
+            ],
+            "selected heuristic value": [
+                0.004775984581749215,
+                0.42483705301187313,
+                0.5291867541894297
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.55699594880673
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.55699594880673
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.639248987201682
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.958873480802524
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.639248987201682
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.598122468004206
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.55699594880673
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.55699594880673
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.639248987201682
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.958873480802524
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.639248987201682
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.598122468004206
+                ]
+            ]
+        },
+        "28": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 212.27138924598694,
+            "selected slide": "exp_0",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0"
+            ],
+            "selected heuristic value": [
+                0.007293820207165513,
+                0.03320976965244948,
+                0.5074632279431165
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.66109698553383
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.66109698553383
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.665274246383458
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.997911369575187
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.665274246383458
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.663185615958646
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.66109698553383
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.66109698553383
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.665274246383458
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.997911369575187
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.665274246383458
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.663185615958646
+                ]
+            ]
+        },
+        "29": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 224.95003128051758,
+            "selected slide": "exp_15",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15"
+            ],
+            "selected heuristic value": [
+                0.010308131750231486,
+                0.9783916850738352,
+                0.6554710836190221
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.70711498592799
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.70711498592799
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.676778746481997
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.015168119722993
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.676778746481997
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.691946866204994
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.70711498592799
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.70711498592799
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.676778746481997
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.015168119722993
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.676778746481997
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.691946866204994
+                ]
+            ]
+        },
+        "30": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 237.61365461349487,
+            "selected slide": "exp_7",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7"
+            ],
+            "selected heuristic value": [
+                0.07946235962366732,
+                0.14228184701436208,
+                0.864482193296337
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.71859571637926
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.71859571637926
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.679648929094816
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.019473393642222
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.679648929094816
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.69912232273704
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.71859571637926
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.71859571637926
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.679648929094816
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.019473393642222
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- Image('P1',) \u2227 YDimCovers('P0', 'P1') \u2227 XDimBeforeClosest('P0', 'P2')",
+                    10.679648929094816
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    26.69912232273704
+                ]
+            ]
+        },
+        "31": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 248.0951316356659,
+            "selected slide": "exp_11",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11"
+            ],
+            "selected heuristic value": [
+                0.057411595324766584,
+                0.07776569313494552,
+                0.027688898294110365
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.868581972821104
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.868581972821104
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.717145493205276
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.075718239807912
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    40.18929559951979
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    42.868581972821104
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.868581972821104
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.717145493205276
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.075718239807912
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    40.18929559951979
+                ]
+            ]
+        },
+        "32": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 258.8476848602295,
+            "selected slide": "exp_14",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14"
+            ],
+            "selected heuristic value": [
+                0.36252481670708936,
+                0.545893369736223,
+                0.13843911460741665
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.34878412015867
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.39897610118625
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.599744025296562
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.899616037944844
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.74904009486211
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.34878412015867
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.39897610118625
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.599744025296562
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.899616037944844
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.74904009486211
+                ]
+            ]
+        },
+        "33": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 269.61500096321106,
+            "selected slide": "exp_39",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39"
+            ],
+            "selected heuristic value": [
+                0.06056191893977558,
+                0.18246511354879336,
+                0.13064581192784275
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.361794125020324
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.40993189475396
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.60248297368849
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.903724460532736
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.759311151331836
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.361794125020324
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.40993189475396
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.60248297368849
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.903724460532736
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.759311151331836
+                ]
+            ]
+        },
+        "34": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 280.10459184646606,
+            "selected slide": "exp_34",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34"
+            ],
+            "selected heuristic value": [
+                0.10224783309132546,
+                0.25839825660187643,
+                0.05322187020041491
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.413731824260445
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.453668904640374
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.613417226160093
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.92012583924014
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.80031459810035
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.413731824260445
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.453668904640374
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.613417226160093
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.92012583924014
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.80031459810035
+                ]
+            ]
+        },
+        "35": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 290.93001413345337,
+            "selected slide": "exp_4",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4"
+            ],
+            "selected heuristic value": [
+                0.13940807435022373,
+                0.4884889313448585,
+                0.9627564127059938
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.46550658143133
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.497268700152695
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.624317175038174
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.936475762557262
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.84118940639315
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.46550658143133
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.497268700152695
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.624317175038174
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.936475762557262
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.84118940639315
+                ]
+            ]
+        },
+        "36": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 301.8996000289917,
+            "selected slide": "exp_36",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36"
+            ],
+            "selected heuristic value": [
+                0.055709052101419854,
+                0.6678977137780341,
+                0.7036223029831662
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.58140929177326
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.594870982545906
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.648717745636477
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.973076618454716
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.93269154613679
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.58140929177326
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.594870982545906
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.648717745636477
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.973076618454716
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.93269154613679
+                ]
+            ]
+        },
+        "37": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 312.47061800956726,
+            "selected slide": "exp_3",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36",
+                "exp_3"
+            ],
+            "selected heuristic value": [
+                0.06249396437397303,
+                0.024671894916543202,
+                0.08303898519269504
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.632661476793004
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.63803071729937
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.659507679324843
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.989261518987265
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.973153797468164
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.632661476793004
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.63803071729937
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.659507679324843
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.989261518987265
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.973153797468164
+                ]
+            ]
+        },
+        "38": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 323.0273735523224,
+            "selected slide": "exp_10",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36",
+                "exp_3",
+                "exp_10"
+            ],
+            "selected heuristic value": [
+                0.15102248706983235,
+                0.41681626767935787,
+                0.2891037869145049
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.7474002261966
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.7346528220603
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.683663205515074
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.02549480827261
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    40.06373702068153
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    50.7474002261966
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.7346528220603
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.683663205515074
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    16.02549480827261
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    40.06373702068153
+                ]
+            ]
+        },
+        "39": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 334.12649488449097,
+            "selected slide": "exp_12",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36",
+                "exp_3",
+                "exp_10",
+                "exp_12"
+            ],
+            "selected heuristic value": [
+                0.10848907068408542,
+                0.2735094969060916,
+                0.9500952884963323
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.1487397990816
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.28999258115026
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.572498145287565
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.858747217931347
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.646868044828366
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.1487397990816
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.28999258115026
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.572498145287565
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P1') \u2227 AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    15.858747217931347
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    39.646868044828366
+                ]
+            ]
+        },
+        "40": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 342.59680557250977,
+            "selected slide": "exp_32",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36",
+                "exp_3",
+                "exp_10",
+                "exp_12",
+                "exp_32"
+            ],
+            "selected heuristic value": [
+                0.3467786300382295,
+                0.032588985005198357,
+                0.004155985955957786
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.66144587755683
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.66286972913224
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.66571743228306
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    61.327875235627594
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.66144587755683
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.66286972913224
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.66571743228306
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    61.327875235627594
+                ]
+            ]
+        },
+        "41": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 350.9212598800659,
+            "selected slide": "exp_6",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36",
+                "exp_3",
+                "exp_10",
+                "exp_12",
+                "exp_32",
+                "exp_6"
+            ],
+            "selected heuristic value": [
+                0.9567839124566593,
+                0.040394303439731716,
+                0.536300486237889
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.71596505064096
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.70252003682979
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.675630009207447
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    61.384872552942824
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.71596505064096
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.70252003682979
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.675630009207447
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    61.384872552942824
+                ]
+            ]
+        },
+        "42": {
+            "TP": 66,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 359.62562370300293,
+            "selected slide": "exp_0",
+            "selected slides:": [
+                "exp_21",
+                "exp_20",
+                "exp_19",
+                "exp_26",
+                "exp_18",
+                "exp_28",
+                "exp_33",
+                "exp_30",
+                "exp_17",
+                "exp_29",
+                "exp_25",
+                "exp_16",
+                "exp_35",
+                "exp_27",
+                "exp_23",
+                "exp_9",
+                "exp_40",
+                "exp_38",
+                "exp_22",
+                "exp_31",
+                "exp_2",
+                "exp_8",
+                "exp_1",
+                "exp_37",
+                "exp_24",
+                "exp_13",
+                "exp_5",
+                "exp_0",
+                "exp_15",
+                "exp_7",
+                "exp_11",
+                "exp_14",
+                "exp_39",
+                "exp_34",
+                "exp_4",
+                "exp_36",
+                "exp_3",
+                "exp_10",
+                "exp_12",
+                "exp_32",
+                "exp_6",
+                "exp_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.894741769368416
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.83253946863157
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.708134867157893
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    64.24880920294736
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    58.894741769368416
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0')",
+                    42.83253946863157
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestUnderAndOverlap('P1', 'P0') \u2227 Image('P0',)",
+                    10.708134867157893
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- AtTipOfArrow('P0', 'P2') \u2227 AtBaseOfArrow('P1', 'P2')",
+                    64.24880920294736
+                ]
+            ]
+        }
+    }
+}

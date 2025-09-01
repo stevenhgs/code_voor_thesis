@@ -1,0 +1,412 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 0,
+        "nb pages": 10,
+        "all pdf names": [
+            "BS0_0",
+            "BS0_1",
+            "BS0_2",
+            "BS0_3",
+            "BS0_4",
+            "BS0_5",
+            "BS0_6",
+            "BS0_7",
+            "BS0_8",
+            "BS0_9"
+        ],
+        "nb pages filtered": 9,
+        "all filtered names": [
+            "BS0_0",
+            "BS0_1",
+            "BS0_2",
+            "BS0_3",
+            "BS0_4",
+            "BS0_5",
+            "BS0_6",
+            "BS0_7",
+            "BS0_8"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.0,
+            "time": 0.01099252700805664,
+            "selected slide": "BS0_7",
+            "selected slides:": [
+                "BS0_7"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -20
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 7,
+            "FP": 6,
+            "FN": 6,
+            "F1": 0.5384615384615384,
+            "time": 0.3241548538208008,
+            "selected slide": "BS0_2",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -19
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    5.201945791373497
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    5.201945791373497
+                ]
+            ]
+        },
+        "3": {
+            "TP": 9,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.6428571428571429,
+            "time": 1.4952669143676758,
+            "selected slide": "BS0_0",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.610191803649565
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    4.8050959018247825
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.610191803649565
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    4.8050959018247825
+                ]
+            ]
+        },
+        "4": {
+            "TP": 9,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.6428571428571429,
+            "time": 2.771347761154175,
+            "selected slide": "BS0_8",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -2
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.751002251281552
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    4.875501125640776
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.751002251281552
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    4.875501125640776
+                ]
+            ]
+        },
+        "5": {
+            "TP": 9,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.6428571428571429,
+            "time": 4.040317058563232,
+            "selected slide": "BS0_1",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8",
+                "BS0_1"
+            ],
+            "selected heuristic value": [
+                3.0517578125e-05,
+                1.0,
+                -16
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.75943517040288
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    4.87971758520144
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.75943517040288
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    4.87971758520144
+                ]
+            ]
+        },
+        "6": {
+            "TP": 9,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.6428571428571429,
+            "time": 5.699268341064453,
+            "selected slide": "BS0_5",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8",
+                "BS0_1",
+                "BS0_5"
+            ],
+            "selected heuristic value": [
+                9.1552734375e-05,
+                1.0,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.337815004603724
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    14.006722506905586
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    9.337815004603724
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    14.006722506905586
+                ]
+            ]
+        },
+        "7": {
+            "TP": 13,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 7.755619764328003,
+            "selected slide": "BS0_4",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8",
+                "BS0_1",
+                "BS0_5",
+                "BS0_4"
+            ],
+            "selected heuristic value": [
+                0.0001220703125,
+                1.0,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.846083988960919
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    26.538251966882754
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.846083988960919
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    26.538251966882754
+                ]
+            ]
+        },
+        "8": {
+            "TP": 13,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 10.154608011245728,
+            "selected slide": "BS0_6",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8",
+                "BS0_1",
+                "BS0_5",
+                "BS0_4",
+                "BS0_6"
+            ],
+            "selected heuristic value": [
+                0.0001220703125,
+                1.0,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.699726374113771
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    34.798905496455085
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.699726374113771
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    34.798905496455085
+                ]
+            ]
+        },
+        "9": {
+            "TP": 13,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 13.166335821151733,
+            "selected slide": "BS0_3",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8",
+                "BS0_1",
+                "BS0_5",
+                "BS0_4",
+                "BS0_6",
+                "BS0_3"
+            ],
+            "selected heuristic value": [
+                0.000244140625,
+                1.0,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.594821834264195
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.974109171320976
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.594821834264195
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    42.974109171320976
+                ]
+            ]
+        },
+        "10": {
+            "TP": 13,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 16.173599004745483,
+            "selected slide": "BS0_0",
+            "selected slides:": [
+                "BS0_7",
+                "BS0_2",
+                "BS0_0",
+                "BS0_8",
+                "BS0_1",
+                "BS0_5",
+                "BS0_4",
+                "BS0_6",
+                "BS0_3",
+                "BS0_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.59687645062152
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    47.282820478418365
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInEnumeration('P1', 'P0') \u2227 InEnumeration('P0',)",
+                    8.59687645062152
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P1', 'P0') \u2227 InBulletPoint('P0',)",
+                    47.282820478418365
+                ]
+            ]
+        }
+    }
+}

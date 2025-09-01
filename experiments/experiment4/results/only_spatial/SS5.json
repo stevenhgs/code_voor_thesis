@@ -1,0 +1,1171 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 34,
+        "all pdf names": [
+            "SS5_0",
+            "SS5_1",
+            "SS5_2",
+            "SS5_3",
+            "SS5_4",
+            "SS5_5",
+            "SS5_6",
+            "SS5_7",
+            "SS5_8",
+            "SS5_9",
+            "SS5_10",
+            "SS5_11",
+            "SS5_12",
+            "SS5_13",
+            "SS5_14",
+            "SS5_15",
+            "SS5_16",
+            "SS5_17",
+            "SS5_18",
+            "SS5_19",
+            "SS5_20",
+            "SS5_21",
+            "SS5_22",
+            "SS5_23",
+            "SS5_24",
+            "SS5_25",
+            "SS5_26",
+            "SS5_27",
+            "SS5_28",
+            "SS5_29",
+            "SS5_30",
+            "SS5_31",
+            "SS5_32",
+            "SS5_33"
+        ],
+        "nb pages filtered": 30,
+        "all filtered names": [
+            "SS5_0",
+            "SS5_1",
+            "SS5_2",
+            "SS5_3",
+            "SS5_4",
+            "SS5_5",
+            "SS5_6",
+            "SS5_8",
+            "SS5_9",
+            "SS5_10",
+            "SS5_11",
+            "SS5_12",
+            "SS5_13",
+            "SS5_15",
+            "SS5_16",
+            "SS5_17",
+            "SS5_18",
+            "SS5_19",
+            "SS5_21",
+            "SS5_22",
+            "SS5_23",
+            "SS5_24",
+            "SS5_25",
+            "SS5_26",
+            "SS5_27",
+            "SS5_28",
+            "SS5_29",
+            "SS5_31",
+            "SS5_32",
+            "SS5_33"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 0.046999216079711914,
+            "selected slide": "SS5_13",
+            "selected slides:": [
+                "SS5_13"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -23
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 0.80426025390625,
+            "selected slide": "SS5_9",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 2.162851333618164,
+            "selected slide": "SS5_11",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 4.399693012237549,
+            "selected slide": "SS5_15",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "5": {
+            "TP": 13,
+            "FP": 118,
+            "FN": 118,
+            "F1": 0.15384615384615385,
+            "time": 10.641191720962524,
+            "selected slide": "SS5_6",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 YDimBefore('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    10.29264723606036
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 YDimBefore('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    10.29264723606036
+                ]
+            ]
+        },
+        "6": {
+            "TP": 13,
+            "FP": 118,
+            "FN": 118,
+            "F1": 0.13131313131313133,
+            "time": 22.0614333152771,
+            "selected slide": "SS5_5",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P2', 'P3')",
+                    10.566887699063331
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P2', 'P3')",
+                    10.566887699063331
+                ]
+            ]
+        },
+        "7": {
+            "TP": 13,
+            "FP": 118,
+            "FN": 118,
+            "F1": 0.15384615384615385,
+            "time": 32.7324800491333,
+            "selected slide": "SS5_8",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 YDimBefore('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    10.776665183732792
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 YDimBefore('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    10.776665183732792
+                ]
+            ]
+        },
+        "8": {
+            "TP": 16,
+            "FP": 115,
+            "FN": 115,
+            "F1": 0.16842105263157894,
+            "time": 46.64326739311218,
+            "selected slide": "SS5_4",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    22.272932709318557
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    22.272932709318557
+                ]
+            ]
+        },
+        "9": {
+            "TP": 16,
+            "FP": 115,
+            "FN": 115,
+            "F1": 0.16753926701570682,
+            "time": 61.57870292663574,
+            "selected slide": "SS5_24",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    22.549011545189845
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    22.549011545189845
+                ]
+            ]
+        },
+        "10": {
+            "TP": 16,
+            "FP": 115,
+            "FN": 115,
+            "F1": 0.16842105263157894,
+            "time": 76.43207573890686,
+            "selected slide": "SS5_31",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    22.143138974244
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    22.143138974244
+                ]
+            ]
+        },
+        "11": {
+            "TP": 16,
+            "FP": 115,
+            "FN": 115,
+            "F1": 0.16842105263157894,
+            "time": 92.23676705360413,
+            "selected slide": "SS5_3",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    21.094097905463656
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    21.094097905463656
+                ]
+            ]
+        },
+        "12": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 100.70945405960083,
+            "selected slide": "SS5_29",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "13": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 110.58626317977905,
+            "selected slide": "SS5_16",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "14": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 120.901620388031,
+            "selected slide": "SS5_33",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "15": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 132.13399243354797,
+            "selected slide": "SS5_1",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "16": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 144.7428855895996,
+            "selected slide": "SS5_19",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "17": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 157.7137360572815,
+            "selected slide": "SS5_22",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "18": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 171.2827136516571,
+            "selected slide": "SS5_2",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "19": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 185.3679554462433,
+            "selected slide": "SS5_12",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "20": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 200.09481287002563,
+            "selected slide": "SS5_17",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "21": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 215.29323530197144,
+            "selected slide": "SS5_18",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "22": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 231.03605914115906,
+            "selected slide": "SS5_27",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "23": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 247.70465564727783,
+            "selected slide": "SS5_28",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "24": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 265.3926455974579,
+            "selected slide": "SS5_25",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "25": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 286.6371259689331,
+            "selected slide": "SS5_26",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "26": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 308.1850678920746,
+            "selected slide": "SS5_21",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26",
+                "SS5_21"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "27": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 330.32697439193726,
+            "selected slide": "SS5_23",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26",
+                "SS5_21",
+                "SS5_23"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "28": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 352.22552251815796,
+            "selected slide": "SS5_32",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26",
+                "SS5_21",
+                "SS5_23",
+                "SS5_32"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "29": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 374.4658546447754,
+            "selected slide": "SS5_10",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26",
+                "SS5_21",
+                "SS5_23",
+                "SS5_32",
+                "SS5_10"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -5
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "30": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 396.9803068637848,
+            "selected slide": "SS5_0",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26",
+                "SS5_21",
+                "SS5_23",
+                "SS5_32",
+                "SS5_10",
+                "SS5_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -3
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "31": {
+            "TP": 0,
+            "FP": 131,
+            "FN": 131,
+            "F1": 0.0,
+            "time": 419.45020842552185,
+            "selected slide": "SS5_0",
+            "selected slides:": [
+                "SS5_13",
+                "SS5_9",
+                "SS5_11",
+                "SS5_15",
+                "SS5_6",
+                "SS5_5",
+                "SS5_8",
+                "SS5_4",
+                "SS5_24",
+                "SS5_31",
+                "SS5_3",
+                "SS5_29",
+                "SS5_16",
+                "SS5_33",
+                "SS5_1",
+                "SS5_19",
+                "SS5_22",
+                "SS5_2",
+                "SS5_12",
+                "SS5_17",
+                "SS5_18",
+                "SS5_27",
+                "SS5_28",
+                "SS5_25",
+                "SS5_26",
+                "SS5_21",
+                "SS5_23",
+                "SS5_32",
+                "SS5_10",
+                "SS5_0",
+                "SS5_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [],
+            "filtered rules": []
+        }
+    }
+}

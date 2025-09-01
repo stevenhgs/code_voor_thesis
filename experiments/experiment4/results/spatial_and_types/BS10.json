@@ -1,0 +1,582 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 25,
+        "all pdf names": [
+            "BS10_0",
+            "BS10_1",
+            "BS10_2",
+            "BS10_3",
+            "BS10_4",
+            "BS10_5",
+            "BS10_6",
+            "BS10_7",
+            "BS10_8",
+            "BS10_9",
+            "BS10_10",
+            "BS10_11",
+            "BS10_12",
+            "BS10_13",
+            "BS10_14",
+            "BS10_15",
+            "BS10_16",
+            "BS10_17",
+            "BS10_18",
+            "BS10_19",
+            "BS10_20",
+            "BS10_21",
+            "BS10_22",
+            "BS10_23",
+            "BS10_24"
+        ],
+        "nb pages filtered": 15,
+        "all filtered names": [
+            "BS10_0",
+            "BS10_1",
+            "BS10_2",
+            "BS10_3",
+            "BS10_4",
+            "BS10_6",
+            "BS10_7",
+            "BS10_9",
+            "BS10_10",
+            "BS10_11",
+            "BS10_12",
+            "BS10_15",
+            "BS10_22",
+            "BS10_23",
+            "BS10_24"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.0,
+            "time": 0.011997699737548828,
+            "selected slide": "BS10_11",
+            "selected slides:": [
+                "BS10_11"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.0,
+            "time": 0.3693716526031494,
+            "selected slide": "BS10_23",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.0,
+            "time": 0.9279172420501709,
+            "selected slide": "BS10_3",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 7,
+            "FP": 11,
+            "FN": 11,
+            "F1": 0.4666666666666667,
+            "time": 2.377384901046753,
+            "selected slide": "BS10_24",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    12.525078056525718
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    12.525078056525718
+                ]
+            ]
+        },
+        "5": {
+            "TP": 7,
+            "FP": 11,
+            "FN": 11,
+            "F1": 0.4666666666666667,
+            "time": 4.108794212341309,
+            "selected slide": "BS10_0",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    13.026160295012861
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    13.026160295012861
+                ]
+            ]
+        },
+        "6": {
+            "TP": 7,
+            "FP": 11,
+            "FN": 11,
+            "F1": 0.4666666666666667,
+            "time": 6.328434705734253,
+            "selected slide": "BS10_15",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    13.366223234541163
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2')",
+                    13.366223234541163
+                ]
+            ]
+        },
+        "7": {
+            "TP": 0,
+            "FP": 18,
+            "FN": 18,
+            "F1": 0.0,
+            "time": 7.9550251960754395,
+            "selected slide": "BS10_2",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -9
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "8": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 11.724693775177002,
+            "selected slide": "BS10_7",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    15.289260869919813
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    15.289260869919813
+                ]
+            ]
+        },
+        "9": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 15.807271718978882,
+            "selected slide": "BS10_1",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -5
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    14.493574757549124
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    14.493574757549124
+                ]
+            ]
+        },
+        "10": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 19.661208868026733,
+            "selected slide": "BS10_12",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -5
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    14.023475696245297
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    14.023475696245297
+                ]
+            ]
+        },
+        "11": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 23.530433893203735,
+            "selected slide": "BS10_22",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12",
+                "BS10_22"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -5
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.633204134718392
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.633204134718392
+                ]
+            ]
+        },
+        "12": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 27.658347606658936,
+            "selected slide": "BS10_4",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12",
+                "BS10_22",
+                "BS10_4"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -3
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.302062653452593
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.302062653452593
+                ]
+            ]
+        },
+        "13": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 31.859451055526733,
+            "selected slide": "BS10_10",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12",
+                "BS10_22",
+                "BS10_4",
+                "BS10_10"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -3
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.34182049695522
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.34182049695522
+                ]
+            ]
+        },
+        "14": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 36.093066453933716,
+            "selected slide": "BS10_9",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12",
+                "BS10_22",
+                "BS10_4",
+                "BS10_10",
+                "BS10_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -2
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.381128524909357
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.381128524909357
+                ]
+            ]
+        },
+        "15": {
+            "TP": 5,
+            "FP": 13,
+            "FN": 13,
+            "F1": 0.43478260869565216,
+            "time": 40.36189103126526,
+            "selected slide": "BS10_6",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12",
+                "BS10_22",
+                "BS10_4",
+                "BS10_10",
+                "BS10_9",
+                "BS10_6"
+            ],
+            "selected heuristic value": [
+                0.00390625,
+                1.0,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.398457018961418
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimCovers('P1', 'P0') \u2227 XDimOverlapsStart('P3', 'P2') \u2227 \u00acXDimCovers('P0', 'P3') \u2227 \u00acYDimBefore('P1', 'P2')",
+                    13.398457018961418
+                ]
+            ]
+        },
+        "16": {
+            "TP": 4,
+            "FP": 14,
+            "FN": 14,
+            "F1": 0.36363636363636365,
+            "time": 43.849222898483276,
+            "selected slide": "BS10_0",
+            "selected slides:": [
+                "BS10_11",
+                "BS10_23",
+                "BS10_3",
+                "BS10_24",
+                "BS10_0",
+                "BS10_15",
+                "BS10_2",
+                "BS10_7",
+                "BS10_1",
+                "BS10_12",
+                "BS10_22",
+                "BS10_4",
+                "BS10_10",
+                "BS10_9",
+                "BS10_6",
+                "BS10_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2') \u2227 XDimCovers('P0', 'P3') \u2227 \u00acXDimOverlapsStart('P3', 'P0')",
+                    13.461972738983233
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 \u00acXDimCovers('P0', 'P2') \u2227 XDimCovers('P0', 'P3') \u2227 \u00acXDimOverlapsStart('P3', 'P0')",
+                    13.461972738983233
+                ]
+            ]
+        }
+    }
+}

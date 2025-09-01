@@ -1,0 +1,1052 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 0,
+        "nb pages": 10,
+        "all pdf names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_7",
+            "US12_8",
+            "US12_9"
+        ],
+        "nb pages filtered": 9,
+        "all filtered names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_8",
+            "US12_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 0.0039615631103515625,
+            "selected slide": "US12_5",
+            "selected slides:": [
+                "US12_5"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 26,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.7027027027027027,
+            "time": 0.9239087104797363,
+            "selected slide": "US12_3",
+            "selected slides:": [
+                "US12_5",
+                "US12_3"
+            ],
+            "selected heuristic value": [
+                0.000244140625,
+                0.8888888888888888,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    5.965446775337091
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1')",
+                    8.948170163005635
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.9827233876685453
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    1.8070842832418408
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    2.9827233876685453
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    5.965446775337091
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1')",
+                    8.948170163005635
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.9827233876685453
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    1.8070842832418408
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P0', 'P1')",
+                    2.9827233876685453
+                ]
+            ]
+        },
+        "3": {
+            "TP": 27,
+            "FP": 7,
+            "FN": 7,
+            "F1": 0.7105263157894737,
+            "time": 4.005489349365234,
+            "selected slide": "US12_1",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1"
+            ],
+            "selected heuristic value": [
+                0.000732421875,
+                0.9166666666666666,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    9.220612833652657
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1')",
+                    9.220612833652657
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    1.895028986634065
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P3')",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0735376112175525
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    9.220612833652657
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1')",
+                    9.220612833652657
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2')",
+                    1.895028986634065
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimCovers('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P3')",
+                    3.0735376112175525
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0735376112175525
+                ]
+            ]
+        },
+        "4": {
+            "TP": 33,
+            "FP": 1,
+            "FN": 1,
+            "F1": 0.8461538461538461,
+            "time": 16.90175223350525,
+            "selected slide": "US12_0",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -3
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    6.100179228147381
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 ClosestYDimAfterAndBold('P2', 'P1')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    12.200358456294762
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.8722925235337071
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.8722925235337071
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P0', 'P3') \u2227 XDimBefore('P4', 'P2')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0500896140736904
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    6.100179228147381
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 ClosestYDimAfterAndBold('P2', 'P1')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    12.200358456294762
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.8722925235337071
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.8722925235337071
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P0', 'P3') \u2227 XDimBefore('P4', 'P2')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    3.0500896140736904
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0500896140736904
+                ]
+            ]
+        },
+        "5": {
+            "TP": 33,
+            "FP": 1,
+            "FN": 1,
+            "F1": 0.8571428571428571,
+            "time": 29.78893756866455,
+            "selected slide": "US12_2",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0",
+                "US12_2"
+            ],
+            "selected heuristic value": [
+                0.0048828125,
+                0.9800000000000001,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    6.125915668169021
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 ClosestYDimAfterAndBold('P2', 'P1')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    12.251831336338041
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.8847678057573205
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.8847678057573205
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimOverlapsStart('P1', 'P2') \u2227 YDimOverlapsStart('P2', 'P3') \u2227 XDimOverlapsStart('P0', 'P4')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0629578340845103
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    6.125915668169021
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 ClosestYDimAfterAndBold('P2', 'P1')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    12.251831336338041
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.8847678057573205
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.8847678057573205
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimOverlapsStart('P1', 'P2') \u2227 YDimOverlapsStart('P2', 'P3') \u2227 XDimOverlapsStart('P0', 'P4')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    3.0629578340845103
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0629578340845103
+                ]
+            ]
+        },
+        "6": {
+            "TP": 32,
+            "FP": 2,
+            "FN": 2,
+            "F1": 0.8205128205128205,
+            "time": 45.84847331047058,
+            "selected slide": "US12_6",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0",
+                "US12_2",
+                "US12_6"
+            ],
+            "selected heuristic value": [
+                0.0048828125,
+                0.8783333333333332,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    6.030442307470251
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    6.030442307470251
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    15.076105768675628
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    1.838519455045235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.838519455045235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.838519455045235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    9.045663461205375
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    1.143723603327505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 XDimBefore('P3', 'P2') \u2227 XDimOverlapsStart('P0', 'P4')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0152211537351254
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    6.030442307470251
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    6.030442307470251
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    15.076105768675628
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    1.838519455045235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.838519455045235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.838519455045235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    9.045663461205375
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    1.143723603327505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 XDimBefore('P3', 'P2') \u2227 XDimOverlapsStart('P0', 'P4')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    3.0152211537351254
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    3.0152211537351254
+                ]
+            ]
+        },
+        "7": {
+            "TP": 32,
+            "FP": 2,
+            "FN": 2,
+            "F1": 0.8205128205128205,
+            "time": 63.11001753807068,
+            "selected slide": "US12_8",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0",
+                "US12_2",
+                "US12_6",
+                "US12_8"
+            ],
+            "selected heuristic value": [
+                0.0048828125,
+                0.948051948051948,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    8.9416962046658
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.9611308031105334
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.863957810886866
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    3.609996644833733
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.8049983224168664
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.8049983224168664
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    1.1124717098021164
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    5.9611308031105334
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 XDimBefore('P3', 'P2') \u2227 XDimOverlapsStart('P0', 'P4')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.9805654015552667
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    8.9416962046658
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.9611308031105334
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimBefore('P0', 'P2') \u2227 \u00acClosestYDimAfterAndBold('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.863957810886866
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    3.609996644833733
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 \u00acText('P2',)",
+                    1.8049983224168664
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimEquals('P0', 'P2') \u2227 XDimBefore('P0', 'P2')",
+                    1.8049983224168664
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimEquals('P1', 'P2') \u2227 Text('P0',)",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    1.1124717098021164
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    5.9611308031105334
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimCovers('P1', 'P3')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 XDimBefore('P3', 'P2') \u2227 XDimOverlapsStart('P0', 'P4')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBefore('P0', 'P2') \u2227 XDimOverlapsStart('P1', 'P3')",
+                    2.9805654015552667
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.9805654015552667
+                ]
+            ]
+        },
+        "8": {
+            "TP": 34,
+            "FP": 0,
+            "FN": 0,
+            "F1": 0.85,
+            "time": 75.88601779937744,
+            "selected slide": "US12_4",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4"
+            ],
+            "selected heuristic value": [
+                0.009765625,
+                0.818181818181818,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    11.816970037757299
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.9084850188786495
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    14.236552323398504
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.679697566075273
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    14.771212547196624
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.9542425094393248
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 \u00acXDimOverlapsStart('P2', 'P0') \u2227 XDimOverlapsStart('P0', 'P3')",
+                    2.9542425094393248
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBeforeClosest('P3', 'P0') \u2227 XDimOverlapsStart('P1', 'P4')",
+                    2.9542425094393248
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.9542425094393248
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    11.816970037757299
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.9084850188786495
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    14.236552323398504
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.679697566075273
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    14.771212547196624
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.9542425094393248
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 XDimCovers('P1', 'P2') \u2227 \u00acXDimOverlapsStart('P2', 'P0') \u2227 XDimOverlapsStart('P0', 'P3')",
+                    2.9542425094393248
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBeforeClosest('P3', 'P0') \u2227 XDimOverlapsStart('P1', 'P4')",
+                    2.9542425094393248
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.9542425094393248
+                ]
+            ]
+        },
+        "9": {
+            "TP": 34,
+            "FP": 0,
+            "FN": 0,
+            "F1": 0.8395061728395061,
+            "time": 93.7354326248169,
+            "selected slide": "US12_9",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4",
+                "US12_9"
+            ],
+            "selected heuristic value": [
+                0.0625,
+                1.0,
+                -6
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    14.58415646676518
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.833662586706072
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    15.691293473940004
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.417819053471252
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    20.417819053471252
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.916831293353036
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P0', 'P3') \u2227 XDimBefore('P4', 'P2')",
+                    2.916831293353036
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBeforeClosest('P3', 'P0') \u2227 XDimOverlapsStart('P1', 'P4')",
+                    2.916831293353036
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.916831293353036
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    14.58415646676518
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.833662586706072
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    15.691293473940004
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.417819053471252
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    20.417819053471252
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBeforeClosest('P2', 'P1')",
+                    2.916831293353036
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P0', 'P3') \u2227 XDimBefore('P4', 'P2')",
+                    2.916831293353036
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 YDimBeforeClosest('P3', 'P0') \u2227 XDimOverlapsStart('P1', 'P4')",
+                    2.916831293353036
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.916831293353036
+                ]
+            ]
+        },
+        "10": {
+            "TP": 34,
+            "FP": 0,
+            "FN": 0,
+            "F1": 0.8831168831168831,
+            "time": 112.04261827468872,
+            "selected slide": "US12_0",
+            "selected slides:": [
+                "US12_5",
+                "US12_3",
+                "US12_1",
+                "US12_0",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4",
+                "US12_9",
+                "US12_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    14.741305283180253
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.896522113272101
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    15.964151229849701
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 Overlap('P1', 'P2')",
+                    20.637827396452355
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    20.637827396452355
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBeforeClosest('P2', 'P1') \u2227 XDimOverlapsStart('P1', 'P0')",
+                    2.9482610566360505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P0', 'P3') \u2227 XDimBefore('P4', 'P2')",
+                    2.9482610566360505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 XDimCovers('P0', 'P3') \u2227 XDimOverlapsStart('P1', 'P4')",
+                    2.9482610566360505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.9482610566360505
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    14.741305283180253
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 YDimBefore('P3', 'P0')",
+                    5.896522113272101
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    15.964151229849701
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 Overlap('P1', 'P2')",
+                    20.637827396452355
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    20.637827396452355
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBeforeClosest('P2', 'P1') \u2227 XDimOverlapsStart('P1', 'P0')",
+                    2.9482610566360505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P0', 'P3') \u2227 XDimBefore('P4', 'P2')",
+                    2.9482610566360505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P1', 'P0') \u2227 XDimBeforeClosest('P2', 'P0') \u2227 XDimCovers('P0', 'P3') \u2227 XDimOverlapsStart('P1', 'P4')",
+                    2.9482610566360505
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 XDimEquals('P0', 'P2') \u2227 YDimOverlapsStart('P1', 'P3') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    2.9482610566360505
+                ]
+            ]
+        }
+    }
+}

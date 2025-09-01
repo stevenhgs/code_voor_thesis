@@ -1,0 +1,797 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 32,
+        "all pdf names": [
+            "SS3_4_0",
+            "SS3_4_1",
+            "SS3_4_2",
+            "SS3_4_3",
+            "SS3_4_4",
+            "SS3_4_5",
+            "SS3_4_6",
+            "SS3_4_7",
+            "SS3_4_8",
+            "SS3_4_9",
+            "SS3_4_10",
+            "SS3_4_11",
+            "SS3_4_12",
+            "SS3_4_13",
+            "SS3_4_14",
+            "SS3_4_15",
+            "SS3_4_16",
+            "SS3_4_17",
+            "SS3_4_18",
+            "SS3_4_19",
+            "SS3_4_20",
+            "SS3_4_21",
+            "SS3_4_22",
+            "SS3_4_23",
+            "SS3_4_24",
+            "SS3_4_25",
+            "SS3_4_26",
+            "SS3_4_27",
+            "SS3_4_28",
+            "SS3_4_29",
+            "SS3_4_30",
+            "SS3_4_31"
+        ],
+        "nb pages filtered": 23,
+        "all filtered names": [
+            "SS3_4_0",
+            "SS3_4_1",
+            "SS3_4_3",
+            "SS3_4_6",
+            "SS3_4_7",
+            "SS3_4_8",
+            "SS3_4_13",
+            "SS3_4_14",
+            "SS3_4_15",
+            "SS3_4_16",
+            "SS3_4_17",
+            "SS3_4_18",
+            "SS3_4_20",
+            "SS3_4_21",
+            "SS3_4_23",
+            "SS3_4_24",
+            "SS3_4_25",
+            "SS3_4_26",
+            "SS3_4_27",
+            "SS3_4_28",
+            "SS3_4_29",
+            "SS3_4_30",
+            "SS3_4_31"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 0.023181676864624023,
+            "selected slide": "SS3_4_23",
+            "selected slides:": [
+                "SS3_4_23"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -24
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 0.05819845199584961,
+            "selected slide": "SS3_4_27",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -22
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 1.4723374843597412,
+            "selected slide": "SS3_4_16",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -21
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 3.501640796661377,
+            "selected slide": "SS3_4_24",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -21
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "5": {
+            "TP": 37,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.6218487394957983,
+            "time": 10.41541314125061,
+            "selected slide": "SS3_4_13",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -17
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    11.241826217436172
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    11.241826217436172
+                ]
+            ]
+        },
+        "6": {
+            "TP": 37,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.6218487394957983,
+            "time": 18.592238664627075,
+            "selected slide": "SS3_4_26",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    11.483175727128115
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P2', 'P0')",
+                    11.483175727128115
+                ]
+            ]
+        },
+        "7": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 21.795137882232666,
+            "selected slide": "SS3_4_25",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -20
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "8": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 25.620124578475952,
+            "selected slide": "SS3_4_6",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "9": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 29.970823049545288,
+            "selected slide": "SS3_4_15",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "10": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 34.87169075012207,
+            "selected slide": "SS3_4_8",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "11": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 40.3442063331604,
+            "selected slide": "SS3_4_17",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "12": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 46.213093280792236,
+            "selected slide": "SS3_4_28",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "13": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 52.76770067214966,
+            "selected slide": "SS3_4_20",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "14": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 59.48197960853577,
+            "selected slide": "SS3_4_0",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "15": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 66.83086228370667,
+            "selected slide": "SS3_4_18",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "16": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 74.48936104774475,
+            "selected slide": "SS3_4_21",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "17": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 82.54402208328247,
+            "selected slide": "SS3_4_29",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "18": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 90.96730446815491,
+            "selected slide": "SS3_4_3",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "19": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 99.76104712486267,
+            "selected slide": "SS3_4_31",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3",
+                "SS3_4_31"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "20": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 108.85931968688965,
+            "selected slide": "SS3_4_30",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3",
+                "SS3_4_31",
+                "SS3_4_30"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "21": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 118.26590776443481,
+            "selected slide": "SS3_4_7",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "22": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 127.89696478843689,
+            "selected slide": "SS3_4_14",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7",
+                "SS3_4_14"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -9
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "23": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 137.8865463733673,
+            "selected slide": "SS3_4_1",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7",
+                "SS3_4_14",
+                "SS3_4_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "24": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 147.70761394500732,
+            "selected slide": "SS3_4_0",
+            "selected slides:": [
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_16",
+                "SS3_4_24",
+                "SS3_4_13",
+                "SS3_4_26",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_8",
+                "SS3_4_17",
+                "SS3_4_28",
+                "SS3_4_20",
+                "SS3_4_0",
+                "SS3_4_18",
+                "SS3_4_21",
+                "SS3_4_29",
+                "SS3_4_3",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7",
+                "SS3_4_14",
+                "SS3_4_1",
+                "SS3_4_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [],
+            "filtered rules": []
+        }
+    }
+}

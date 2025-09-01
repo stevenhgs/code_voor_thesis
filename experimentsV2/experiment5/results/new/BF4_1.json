@@ -1,0 +1,2536 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 3,
+        "nb pages": 21,
+        "all pdf names": [
+            "BF4_1_0",
+            "BF4_1_1",
+            "BF4_1_10",
+            "BF4_1_11",
+            "BF4_1_12",
+            "BF4_1_13",
+            "BF4_1_14",
+            "BF4_1_15",
+            "BF4_1_17",
+            "BF4_1_18",
+            "BF4_1_19",
+            "BF4_1_2",
+            "BF4_1_20",
+            "BF4_1_21",
+            "BF4_1_3",
+            "BF4_1_4",
+            "BF4_1_5",
+            "BF4_1_6",
+            "BF4_1_7",
+            "BF4_1_8",
+            "BF4_1_9"
+        ],
+        "nb pages filtered": 20,
+        "all filtered names": [
+            "BF4_1_0",
+            "BF4_1_1",
+            "BF4_1_10",
+            "BF4_1_11",
+            "BF4_1_12",
+            "BF4_1_13",
+            "BF4_1_14",
+            "BF4_1_15",
+            "BF4_1_17",
+            "BF4_1_18",
+            "BF4_1_19",
+            "BF4_1_2",
+            "BF4_1_20",
+            "BF4_1_21",
+            "BF4_1_3",
+            "BF4_1_4",
+            "BF4_1_5",
+            "BF4_1_6",
+            "BF4_1_8",
+            "BF4_1_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 161,
+                    "nb_false_negatives": 26,
+                    "f1_score": 0.0
+                },
+                "Together": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 161,
+                    "nb_false_negatives": 20,
+                    "f1_score": 0.0
+                }
+            },
+            "time": 0.037999868392944336,
+            "selected slide": "BF4_1_2",
+            "selected slides:": [
+                "BF4_1_2"
+            ],
+            "selected heuristic value": [
+                0.28125,
+                -Infinity,
+                -14
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "order_data": {
+                "BF4_1_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            5
+                        ]
+                    ]
+                },
+                "BF4_1_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_10": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_11": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_12": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_13": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            2,
+                            5
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            3,
+                            5
+                        ]
+                    ]
+                },
+                "BF4_1_14": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3
+                        ],
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            3,
+                            2
+                        ]
+                    ]
+                },
+                "BF4_1_15": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_17": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3
+                        ],
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ]
+                },
+                "BF4_1_18": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_19": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            2,
+                            4,
+                            5
+                        ],
+                        [
+                            0,
+                            6,
+                            1,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            4,
+                            6
+                        ],
+                        [
+                            5,
+                            1
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            5,
+                            6
+                        ],
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            5,
+                            2
+                        ]
+                    ]
+                },
+                "BF4_1_20": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_21": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            2,
+                            5
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            3,
+                            5
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            5,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                }
+            }
+        },
+        "2": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 161,
+                    "nb_false_negatives": 26,
+                    "f1_score": 0.0
+                },
+                "Together": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 161,
+                    "nb_false_negatives": 20,
+                    "f1_score": 0.0
+                }
+            },
+            "time": 0.07399988174438477,
+            "selected slide": "BF4_1_0",
+            "selected slides:": [
+                "BF4_1_2",
+                "BF4_1_0"
+            ],
+            "selected heuristic value": [
+                0.375,
+                -Infinity,
+                -12
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "order_data": {
+                "BF4_1_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            5
+                        ]
+                    ]
+                },
+                "BF4_1_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_10": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_11": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_12": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_13": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            2,
+                            5
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            3,
+                            5
+                        ]
+                    ]
+                },
+                "BF4_1_14": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3
+                        ],
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            3,
+                            2
+                        ]
+                    ]
+                },
+                "BF4_1_15": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_17": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3
+                        ],
+                        [
+                            0,
+                            4
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            4
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ]
+                    ]
+                },
+                "BF4_1_18": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_19": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            2,
+                            4,
+                            5
+                        ],
+                        [
+                            0,
+                            6,
+                            1,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            4,
+                            6
+                        ],
+                        [
+                            5,
+                            1
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            5,
+                            6
+                        ],
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            5,
+                            2
+                        ]
+                    ]
+                },
+                "BF4_1_20": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_21": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_8": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        [
+                            0,
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            4,
+                            0
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            4,
+                            3
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            3,
+                            1
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            1,
+                            0
+                        ],
+                        [
+                            3,
+                            2
+                        ],
+                        [
+                            2,
+                            5
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            1,
+                            3
+                        ],
+                        [
+                            4,
+                            1
+                        ],
+                        [
+                            3,
+                            5
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            4,
+                            2
+                        ],
+                        [
+                            3,
+                            0
+                        ],
+                        [
+                            4,
+                            5
+                        ],
+                        [
+                            5,
+                            0
+                        ]
+                    ]
+                },
+                "BF4_1_9": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            1,
+                            2
+                        ],
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            1
+                        ],
+                        [
+                            2,
+                            0
+                        ],
+                        [
+                            3,
+                            0
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,451 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 28,
+        "all pdf names": [
+            "US7_0",
+            "US7_1",
+            "US7_2",
+            "US7_3",
+            "US7_4",
+            "US7_5",
+            "US7_6",
+            "US7_7",
+            "US7_8",
+            "US7_9",
+            "US7_10",
+            "US7_11",
+            "US7_12",
+            "US7_13",
+            "US7_14",
+            "US7_15",
+            "US7_16",
+            "US7_17",
+            "US7_18",
+            "US7_19",
+            "US7_20",
+            "US7_21",
+            "US7_22",
+            "US7_23",
+            "US7_24",
+            "US7_25",
+            "US7_26",
+            "US7_27"
+        ],
+        "nb pages filtered": 14,
+        "all filtered names": [
+            "US7_0",
+            "US7_1",
+            "US7_2",
+            "US7_3",
+            "US7_8",
+            "US7_11",
+            "US7_14",
+            "US7_18",
+            "US7_20",
+            "US7_21",
+            "US7_24",
+            "US7_25",
+            "US7_26",
+            "US7_27"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 0.009999990463256836,
+            "selected slide": "US7_8",
+            "selected slides:": [
+                "US7_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -21
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 3,
+            "FP": 22,
+            "FN": 22,
+            "F1": 0.21428571428571427,
+            "time": 2.1129989624023438,
+            "selected slide": "US7_26",
+            "selected slides:": [
+                "US7_8",
+                "US7_26"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 XDimBefore('P1', 'P0') \u2227 XDimCovers('P0', 'P3') \u2227 \u00acYDimOverlapsStart('P0', 'P2')",
+                    12.986117134706623
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 XDimBefore('P1', 'P0') \u2227 XDimCovers('P0', 'P3') \u2227 \u00acYDimOverlapsStart('P0', 'P2')",
+                    12.986117134706623
+                ]
+            ]
+        },
+        "3": {
+            "TP": 3,
+            "FP": 22,
+            "FN": 22,
+            "F1": 0.21428571428571427,
+            "time": 5.3965160846710205,
+            "selected slide": "US7_3",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -17
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 XDimBefore('P1', 'P0') \u2227 XDimCovers('P0', 'P3') \u2227 \u00acYDimOverlapsStart('P0', 'P2')",
+                    14.429002299719627
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P2') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 XDimBefore('P1', 'P0') \u2227 XDimCovers('P0', 'P3') \u2227 \u00acYDimOverlapsStart('P0', 'P2')",
+                    14.429002299719627
+                ]
+            ]
+        },
+        "4": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 7.843879699707031,
+            "selected slide": "US7_21",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "5": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 10.912721872329712,
+            "selected slide": "US7_1",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "6": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 14.542654991149902,
+            "selected slide": "US7_2",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "7": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 18.09580159187317,
+            "selected slide": "US7_27",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "8": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 22.35011076927185,
+            "selected slide": "US7_18",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "9": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 28.34151816368103,
+            "selected slide": "US7_24",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "10": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 33.999390602111816,
+            "selected slide": "US7_0",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24",
+                "US7_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "11": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 39.819758892059326,
+            "selected slide": "US7_11",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24",
+                "US7_0",
+                "US7_11"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "12": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 45.80664944648743,
+            "selected slide": "US7_25",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24",
+                "US7_0",
+                "US7_11",
+                "US7_25"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "13": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 51.94087028503418,
+            "selected slide": "US7_14",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24",
+                "US7_0",
+                "US7_11",
+                "US7_25",
+                "US7_14"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -4
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "14": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 58.248860359191895,
+            "selected slide": "US7_20",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24",
+                "US7_0",
+                "US7_11",
+                "US7_25",
+                "US7_14",
+                "US7_20"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -4
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "15": {
+            "TP": 0,
+            "FP": 25,
+            "FN": 25,
+            "F1": 0.0,
+            "time": 64.34250354766846,
+            "selected slide": "US7_0",
+            "selected slides:": [
+                "US7_8",
+                "US7_26",
+                "US7_3",
+                "US7_21",
+                "US7_1",
+                "US7_2",
+                "US7_27",
+                "US7_18",
+                "US7_24",
+                "US7_0",
+                "US7_11",
+                "US7_25",
+                "US7_14",
+                "US7_20",
+                "US7_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [],
+            "filtered rules": []
+        }
+    }
+}

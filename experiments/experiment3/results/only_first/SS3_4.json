@@ -1,0 +1,987 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 32,
+        "all pdf names": [
+            "SS3_4_0",
+            "SS3_4_1",
+            "SS3_4_2",
+            "SS3_4_3",
+            "SS3_4_4",
+            "SS3_4_5",
+            "SS3_4_6",
+            "SS3_4_7",
+            "SS3_4_8",
+            "SS3_4_9",
+            "SS3_4_10",
+            "SS3_4_11",
+            "SS3_4_12",
+            "SS3_4_13",
+            "SS3_4_14",
+            "SS3_4_15",
+            "SS3_4_16",
+            "SS3_4_17",
+            "SS3_4_18",
+            "SS3_4_19",
+            "SS3_4_20",
+            "SS3_4_21",
+            "SS3_4_22",
+            "SS3_4_23",
+            "SS3_4_24",
+            "SS3_4_25",
+            "SS3_4_26",
+            "SS3_4_27",
+            "SS3_4_28",
+            "SS3_4_29",
+            "SS3_4_30",
+            "SS3_4_31"
+        ],
+        "nb pages filtered": 23,
+        "all filtered names": [
+            "SS3_4_0",
+            "SS3_4_1",
+            "SS3_4_3",
+            "SS3_4_6",
+            "SS3_4_7",
+            "SS3_4_8",
+            "SS3_4_13",
+            "SS3_4_14",
+            "SS3_4_15",
+            "SS3_4_16",
+            "SS3_4_17",
+            "SS3_4_18",
+            "SS3_4_20",
+            "SS3_4_21",
+            "SS3_4_23",
+            "SS3_4_24",
+            "SS3_4_25",
+            "SS3_4_26",
+            "SS3_4_27",
+            "SS3_4_28",
+            "SS3_4_29",
+            "SS3_4_30",
+            "SS3_4_31"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 0.02500176429748535,
+            "selected slide": "SS3_4_0",
+            "selected slides:": [
+                "SS3_4_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 0.3285214900970459,
+            "selected slide": "SS3_4_1",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 45,
+            "FN": 45,
+            "F1": 0.0,
+            "time": 0.7042863368988037,
+            "selected slide": "SS3_4_3",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 1.5490283966064453,
+            "selected slide": "SS3_4_13",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    16.210631509778793
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    16.210631509778793
+                ]
+            ]
+        },
+        "5": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 2.9395241737365723,
+            "selected slide": "SS3_4_16",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    18.013105763585695
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    18.013105763585695
+                ]
+            ]
+        },
+        "6": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 5.7515950202941895,
+            "selected slide": "SS3_4_23",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23"
+            ],
+            "selected heuristic value": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    19.684175943201605
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    19.684175943201605
+                ]
+            ]
+        },
+        "7": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 10.45853853225708,
+            "selected slide": "SS3_4_27",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27"
+            ],
+            "selected heuristic value": [
+                2.384185791015625e-07,
+                2.384185791015625e-07,
+                2.384185791015625e-07
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    21.08989661237945
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    21.08989661237945
+                ]
+            ]
+        },
+        "8": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 17.046728134155273,
+            "selected slide": "SS3_4_24",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24"
+            ],
+            "selected heuristic value": [
+                9.5367431640625e-07,
+                9.5367431640625e-07,
+                9.5367431640625e-07
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.462076122066854
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    26.462076122066854
+                ]
+            ]
+        },
+        "9": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 25.354510068893433,
+            "selected slide": "SS3_4_25",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25"
+            ],
+            "selected heuristic value": [
+                1.9073486328125e-06,
+                1.9073486328125e-06,
+                1.9073486328125e-06
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    36.10094893955301
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    36.10094893955301
+                ]
+            ]
+        },
+        "10": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 35.346625566482544,
+            "selected slide": "SS3_4_6",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6"
+            ],
+            "selected heuristic value": [
+                1.52587890625e-05,
+                1.52587890625e-05,
+                1.52587890625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    45.543594567655475
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    45.543594567655475
+                ]
+            ]
+        },
+        "11": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 46.93112087249756,
+            "selected slide": "SS3_4_15",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15"
+            ],
+            "selected heuristic value": [
+                1.52587890625e-05,
+                1.52587890625e-05,
+                1.52587890625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    62.75920040556751
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    62.75920040556751
+                ]
+            ]
+        },
+        "12": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 59.47598886489868,
+            "selected slide": "SS3_4_28",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28"
+            ],
+            "selected heuristic value": [
+                1.52587890625e-05,
+                1.52587890625e-05,
+                1.52587890625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    79.44763420979103
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    79.44763420979103
+                ]
+            ]
+        },
+        "13": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 73.72094488143921,
+            "selected slide": "SS3_4_17",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17"
+            ],
+            "selected heuristic value": [
+                3.0517578125e-05,
+                3.0517578125e-05,
+                3.0517578125e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    84.27184472926318
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    84.27184472926318
+                ]
+            ]
+        },
+        "14": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 89.48392176628113,
+            "selected slide": "SS3_4_8",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8"
+            ],
+            "selected heuristic value": [
+                6.103515625e-05,
+                6.103515625e-05,
+                6.103515625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    92.88877178935677
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    92.88877178935677
+                ]
+            ]
+        },
+        "15": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 105.85555744171143,
+            "selected slide": "SS3_4_18",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18"
+            ],
+            "selected heuristic value": [
+                6.103515625e-05,
+                6.103515625e-05,
+                6.103515625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    108.88050786965111
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    108.88050786965111
+                ]
+            ]
+        },
+        "16": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 118.7203164100647,
+            "selected slide": "SS3_4_20",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20"
+            ],
+            "selected heuristic value": [
+                6.103515625e-05,
+                6.103515625e-05,
+                6.103515625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    113.46163319034154
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    113.46163319034154
+                ]
+            ]
+        },
+        "17": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 136.5094063282013,
+            "selected slide": "SS3_4_21",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21"
+            ],
+            "selected heuristic value": [
+                6.103515625e-05,
+                6.103515625e-05,
+                6.103515625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    121.83292064100495
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    121.83292064100495
+                ]
+            ]
+        },
+        "18": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 155.1637020111084,
+            "selected slide": "SS3_4_26",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26"
+            ],
+            "selected heuristic value": [
+                6.103515625e-05,
+                6.103515625e-05,
+                6.103515625e-05
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    126.41559942782848
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    126.41559942782848
+                ]
+            ]
+        },
+        "19": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 175.3546712398529,
+            "selected slide": "SS3_4_29",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26",
+                "SS3_4_29"
+            ],
+            "selected heuristic value": [
+                0.0001220703125,
+                0.0001220703125,
+                0.0001220703125
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    134.7702115054753
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    134.7702115054753
+                ]
+            ]
+        },
+        "20": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 191.59484887123108,
+            "selected slide": "SS3_4_31",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26",
+                "SS3_4_29",
+                "SS3_4_31"
+            ],
+            "selected heuristic value": [
+                0.0003662109375,
+                0.0003662109375,
+                0.0003662109375
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    142.96249938454872
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    142.96249938454872
+                ]
+            ]
+        },
+        "21": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 207.8266134262085,
+            "selected slide": "SS3_4_30",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26",
+                "SS3_4_29",
+                "SS3_4_31",
+                "SS3_4_30"
+            ],
+            "selected heuristic value": [
+                0.0009765625,
+                0.0009765625,
+                0.0009765625
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    154.547865058543
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    154.547865058543
+                ]
+            ]
+        },
+        "22": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 224.26962065696716,
+            "selected slide": "SS3_4_7",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26",
+                "SS3_4_29",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7"
+            ],
+            "selected heuristic value": [
+                0.00390625,
+                0.00390625,
+                0.00390625
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    169.37418540279907
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- ClosestYDimAfterAndInBulletPoint('P0', 'P2') \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    169.37418540279907
+                ]
+            ]
+        },
+        "23": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 241.2469117641449,
+            "selected slide": "SS3_4_14",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26",
+                "SS3_4_29",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7",
+                "SS3_4_14"
+            ],
+            "selected heuristic value": [
+                0.00390625,
+                0.00390625,
+                0.00390625
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    183.71356192892793
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    183.71356192892793
+                ]
+            ]
+        },
+        "24": {
+            "TP": 45,
+            "FP": 0,
+            "FN": 0,
+            "F1": 1.0,
+            "time": 258.2372987270355,
+            "selected slide": "SS3_4_0",
+            "selected slides:": [
+                "SS3_4_0",
+                "SS3_4_1",
+                "SS3_4_3",
+                "SS3_4_13",
+                "SS3_4_16",
+                "SS3_4_23",
+                "SS3_4_27",
+                "SS3_4_24",
+                "SS3_4_25",
+                "SS3_4_6",
+                "SS3_4_15",
+                "SS3_4_28",
+                "SS3_4_17",
+                "SS3_4_8",
+                "SS3_4_18",
+                "SS3_4_20",
+                "SS3_4_21",
+                "SS3_4_26",
+                "SS3_4_29",
+                "SS3_4_31",
+                "SS3_4_30",
+                "SS3_4_7",
+                "SS3_4_14",
+                "SS3_4_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    191.0027066013356
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 ClosestYDimAfterAndInBulletPoint('P1', 'P0')",
+                    191.0027066013356
+                ]
+            ]
+        }
+    }
+}

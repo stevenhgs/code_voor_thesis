@@ -1,0 +1,844 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 31,
+        "all pdf names": [
+            "SS3_2_0",
+            "SS3_2_1",
+            "SS3_2_2",
+            "SS3_2_3",
+            "SS3_2_4",
+            "SS3_2_5",
+            "SS3_2_6",
+            "SS3_2_7",
+            "SS3_2_8",
+            "SS3_2_9",
+            "SS3_2_10",
+            "SS3_2_11",
+            "SS3_2_12",
+            "SS3_2_13",
+            "SS3_2_14",
+            "SS3_2_15",
+            "SS3_2_16",
+            "SS3_2_17",
+            "SS3_2_18",
+            "SS3_2_19",
+            "SS3_2_20",
+            "SS3_2_21",
+            "SS3_2_22",
+            "SS3_2_23",
+            "SS3_2_24",
+            "SS3_2_25",
+            "SS3_2_26",
+            "SS3_2_27",
+            "SS3_2_28",
+            "SS3_2_29",
+            "SS3_2_30"
+        ],
+        "nb pages filtered": 22,
+        "all filtered names": [
+            "SS3_2_1",
+            "SS3_2_4",
+            "SS3_2_5",
+            "SS3_2_7",
+            "SS3_2_8",
+            "SS3_2_9",
+            "SS3_2_10",
+            "SS3_2_11",
+            "SS3_2_13",
+            "SS3_2_14",
+            "SS3_2_15",
+            "SS3_2_16",
+            "SS3_2_17",
+            "SS3_2_18",
+            "SS3_2_19",
+            "SS3_2_21",
+            "SS3_2_23",
+            "SS3_2_24",
+            "SS3_2_25",
+            "SS3_2_27",
+            "SS3_2_29",
+            "SS3_2_30"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 0.02100062370300293,
+            "selected slide": "SS3_2_25",
+            "selected slides:": [
+                "SS3_2_25"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -24
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 0.9089517593383789,
+            "selected slide": "SS3_2_27",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -22
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 3.1386656761169434,
+            "selected slide": "SS3_2_29",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -22
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 6.579131126403809,
+            "selected slide": "SS3_2_30",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -22
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "5": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 11.15366506576538,
+            "selected slide": "SS3_2_4",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -21
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "6": {
+            "TP": 10,
+            "FP": 27,
+            "FN": 27,
+            "F1": 0.4166666666666667,
+            "time": 21.41243314743042,
+            "selected slide": "SS3_2_9",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -19
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 InBulletPoint('P0',) \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P1', 'P2') \u2227 XDimCovers('P1', 'P2')",
+                    10.453252645821838
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P1', 'P0') \u2227 InBulletPoint('P0',) \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P1', 'P2') \u2227 XDimCovers('P1', 'P2')",
+                    10.453252645821838
+                ]
+            ]
+        },
+        "7": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 25.72108006477356,
+            "selected slide": "SS3_2_5",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -20
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "8": {
+            "TP": 14,
+            "FP": 23,
+            "FN": 23,
+            "F1": 0.4745762711864407,
+            "time": 38.541229009628296,
+            "selected slide": "SS3_2_19",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    20.840284392730045
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    20.840284392730045
+                ]
+            ]
+        },
+        "9": {
+            "TP": 14,
+            "FP": 23,
+            "FN": 23,
+            "F1": 0.4745762711864407,
+            "time": 52.063011169433594,
+            "selected slide": "SS3_2_1",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.17318995418364
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 \u00acYDimBefore('P1', 'P0') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.17318995418364
+                ]
+            ]
+        },
+        "10": {
+            "TP": 14,
+            "FP": 23,
+            "FN": 23,
+            "F1": 0.5,
+            "time": 66.6188280582428,
+            "selected slide": "SS3_2_11",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    20.901329166299828
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    20.901329166299828
+                ]
+            ]
+        },
+        "11": {
+            "TP": 14,
+            "FP": 23,
+            "FN": 23,
+            "F1": 0.5,
+            "time": 81.78438591957092,
+            "selected slide": "SS3_2_15",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.034370478520216
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.034370478520216
+                ]
+            ]
+        },
+        "12": {
+            "TP": 14,
+            "FP": 23,
+            "FN": 23,
+            "F1": 0.5,
+            "time": 98.40350151062012,
+            "selected slide": "SS3_2_14",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 InBulletPoint('P0',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.123851495763375
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 InBulletPoint('P0',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.123851495763375
+                ]
+            ]
+        },
+        "13": {
+            "TP": 14,
+            "FP": 23,
+            "FN": 23,
+            "F1": 0.5,
+            "time": 115.0361213684082,
+            "selected slide": "SS3_2_7",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7"
+            ],
+            "selected heuristic value": [
+                1.9073486328125e-06,
+                1.0,
+                -20
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 InBulletPoint('P0',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.15550871574271
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 InBulletPoint('P0',) \u2227 OnTop('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P2')",
+                    21.15550871574271
+                ]
+            ]
+        },
+        "14": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 123.559814453125,
+            "selected slide": "SS3_2_17",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -20
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "15": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 132.9511842727661,
+            "selected slide": "SS3_2_23",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -20
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "16": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 143.59988617897034,
+            "selected slide": "SS3_2_16",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "17": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 156.6451907157898,
+            "selected slide": "SS3_2_24",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -18
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "18": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 170.56970882415771,
+            "selected slide": "SS3_2_21",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24",
+                "SS3_2_21"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "19": {
+            "TP": 3,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.15,
+            "time": 199.8509840965271,
+            "selected slide": "SS3_2_10",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24",
+                "SS3_2_21",
+                "SS3_2_10"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P1', 'P2') \u2227 XDimCovers('P0', 'P1')",
+                    13.716825754536554
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 YDimCovers('P1', 'P2') \u2227 XDimCovers('P0', 'P1')",
+                    13.716825754536554
+                ]
+            ]
+        },
+        "20": {
+            "TP": 0,
+            "FP": 37,
+            "FN": 37,
+            "F1": 0.0,
+            "time": 215.09281206130981,
+            "selected slide": "SS3_2_13",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24",
+                "SS3_2_21",
+                "SS3_2_10",
+                "SS3_2_13"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "21": {
+            "TP": 4,
+            "FP": 33,
+            "FN": 33,
+            "F1": 0.19047619047619047,
+            "time": 250.01712274551392,
+            "selected slide": "SS3_2_8",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24",
+                "SS3_2_21",
+                "SS3_2_10",
+                "SS3_2_13",
+                "SS3_2_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimEquals('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    16.06526386596676
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimEquals('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    16.06526386596676
+                ]
+            ]
+        },
+        "22": {
+            "TP": 4,
+            "FP": 33,
+            "FN": 33,
+            "F1": 0.19047619047619047,
+            "time": 285.5840575695038,
+            "selected slide": "SS3_2_18",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24",
+                "SS3_2_21",
+                "SS3_2_10",
+                "SS3_2_13",
+                "SS3_2_8",
+                "SS3_2_18"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimEquals('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    15.904502837159203
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimEquals('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    15.904502837159203
+                ]
+            ]
+        },
+        "23": {
+            "TP": 4,
+            "FP": 33,
+            "FN": 33,
+            "F1": 0.19047619047619047,
+            "time": 321.0345594882965,
+            "selected slide": "SS3_2_1",
+            "selected slides:": [
+                "SS3_2_25",
+                "SS3_2_27",
+                "SS3_2_29",
+                "SS3_2_30",
+                "SS3_2_4",
+                "SS3_2_9",
+                "SS3_2_5",
+                "SS3_2_19",
+                "SS3_2_1",
+                "SS3_2_11",
+                "SS3_2_15",
+                "SS3_2_14",
+                "SS3_2_7",
+                "SS3_2_17",
+                "SS3_2_23",
+                "SS3_2_16",
+                "SS3_2_24",
+                "SS3_2_21",
+                "SS3_2_10",
+                "SS3_2_13",
+                "SS3_2_8",
+                "SS3_2_18",
+                "SS3_2_1"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimEquals('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    15.754563135635431
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimOverlapsStart('P1', 'P0') \u2227 YDimEquals('P1', 'P2') \u2227 YDimBefore('P0', 'P1')",
+                    15.754563135635431
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,560 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 16,
+        "all pdf names": [
+            "US4_0",
+            "US4_1",
+            "US4_2",
+            "US4_3",
+            "US4_4",
+            "US4_5",
+            "US4_6",
+            "US4_7",
+            "US4_8",
+            "US4_9",
+            "US4_10",
+            "US4_11",
+            "US4_12",
+            "US4_13",
+            "US4_14",
+            "US4_15"
+        ],
+        "nb pages filtered": 13,
+        "all filtered names": [
+            "US4_0",
+            "US4_1",
+            "US4_2",
+            "US4_3",
+            "US4_4",
+            "US4_6",
+            "US4_8",
+            "US4_9",
+            "US4_10",
+            "US4_12",
+            "US4_13",
+            "US4_14",
+            "US4_15"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 20,
+            "FN": 20,
+            "F1": 0.0,
+            "time": 0.016039371490478516,
+            "selected slide": "US4_3",
+            "selected slides:": [
+                "US4_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -25
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 20,
+            "FN": 20,
+            "F1": 0.0,
+            "time": 0.042038679122924805,
+            "selected slide": "US4_9",
+            "selected slides:": [
+                "US4_3",
+                "US4_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -23
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 20,
+            "FN": 20,
+            "F1": 0.0,
+            "time": 0.10029840469360352,
+            "selected slide": "US4_6",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 12,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.6153846153846154,
+            "time": 4.713158845901489,
+            "selected slide": "US4_14",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.64598871671932
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.64598871671932
+                ]
+            ]
+        },
+        "5": {
+            "TP": 12,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.6153846153846154,
+            "time": 9.917041778564453,
+            "selected slide": "US4_15",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -8
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.34634921868702
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.34634921868702
+                ]
+            ]
+        },
+        "6": {
+            "TP": 12,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.6153846153846154,
+            "time": 15.308517932891846,
+            "selected slide": "US4_0",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -5
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.41690421233788
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.41690421233788
+                ]
+            ]
+        },
+        "7": {
+            "TP": 12,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.6153846153846154,
+            "time": 20.852035760879517,
+            "selected slide": "US4_13",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13"
+            ],
+            "selected heuristic value": [
+                3.0517578125e-05,
+                1.0,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.443704773634822
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 XDimCovers('P1', 'P0') \u2227 YDimBefore('P0', 'P1') \u2227 InBulletPoint('P1',)",
+                    10.443704773634822
+                ]
+            ]
+        },
+        "8": {
+            "TP": 20,
+            "FP": 0,
+            "FN": 0,
+            "F1": 0.7407407407407407,
+            "time": 27.2362003326416,
+            "selected slide": "US4_10",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10"
+            ],
+            "selected heuristic value": [
+                0.00018310546875,
+                0.7000000000000001,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1')",
+                    14.9425603289952
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    10.801645175575908
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1')",
+                    14.9425603289952
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    10.801645175575908
+                ]
+            ]
+        },
+        "9": {
+            "TP": 20,
+            "FP": 0,
+            "FN": 0,
+            "F1": 0.7407407407407407,
+            "time": 34.40808963775635,
+            "selected slide": "US4_12",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10",
+                "US4_12"
+            ],
+            "selected heuristic value": [
+                0.00018310546875,
+                0.7115384615384616,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1')",
+                    19.269310992510487
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    13.916107029635151
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1')",
+                    19.269310992510487
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    13.916107029635151
+                ]
+            ]
+        },
+        "10": {
+            "TP": 20,
+            "FP": 0,
+            "FN": 0,
+            "F1": 0.7407407407407407,
+            "time": 42.52405571937561,
+            "selected slide": "US4_1",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10",
+                "US4_12",
+                "US4_1"
+            ],
+            "selected heuristic value": [
+                0.0003662109375,
+                0.7954545454545454,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1')",
+                    23.510228525841235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    16.9503807059786
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1')",
+                    23.510228525841235
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    16.9503807059786
+                ]
+            ]
+        },
+        "11": {
+            "TP": 16,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.7272727272727273,
+            "time": 58.05303454399109,
+            "selected slide": "US4_2",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10",
+                "US4_12",
+                "US4_1",
+                "US4_2"
+            ],
+            "selected heuristic value": [
+                0.0001220703125,
+                1.0,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 InBulletPoint('P0',) \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2')",
+                    22.729121768778878
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    20.07810119088481
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 InBulletPoint('P0',) \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2')",
+                    22.729121768778878
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimCovers('P0', 'P1') \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1')",
+                    20.07810119088481
+                ]
+            ]
+        },
+        "12": {
+            "TP": 16,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.7272727272727273,
+            "time": 75.63651871681213,
+            "selected slide": "US4_4",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10",
+                "US4_12",
+                "US4_1",
+                "US4_2",
+                "US4_4"
+            ],
+            "selected heuristic value": [
+                0.00018310546875,
+                0.8333333333333334,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2')",
+                    26.874596650085675
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    19.679983907685514
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2')",
+                    26.874596650085675
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    19.679983907685514
+                ]
+            ]
+        },
+        "13": {
+            "TP": 12,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.631578947368421,
+            "time": 97.19034957885742,
+            "selected slide": "US4_8",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10",
+                "US4_12",
+                "US4_1",
+                "US4_2",
+                "US4_4",
+                "US4_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    21.91419961268221
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    22.920186897710522
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    21.91419961268221
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P1',) \u2227 XDimCovers('P0', 'P1') \u2227 YDimBefore('P0', 'P1')",
+                    22.920186897710522
+                ]
+            ]
+        },
+        "14": {
+            "TP": 12,
+            "FP": 8,
+            "FN": 8,
+            "F1": 0.7058823529411765,
+            "time": 135.58020997047424,
+            "selected slide": "US4_0",
+            "selected slides:": [
+                "US4_3",
+                "US4_9",
+                "US4_6",
+                "US4_14",
+                "US4_15",
+                "US4_0",
+                "US4_13",
+                "US4_10",
+                "US4_12",
+                "US4_1",
+                "US4_2",
+                "US4_4",
+                "US4_8",
+                "US4_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    21.671695904086313
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P2', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 XDimBefore('P0', 'P3')",
+                    15.17006759270176
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1') \u2227 XDimCovers('P2', 'P1') \u2227 InBulletPoint('P2',)",
+                    11.055196122315259
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 XDimOverlapsStart('P0', 'P1') \u2227 XDimOverlapsStart('P1', 'P2') \u2227 \u00acYDimBefore('P0', 'P2')",
+                    21.671695904086313
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 YDimBefore('P0', 'P1') \u2227 XDimCovers('P2', 'P1') \u2227 XDimOverlapsStart('P2', 'P0') \u2227 XDimBefore('P0', 'P3')",
+                    15.17006759270176
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- InBulletPoint('P0',) \u2227 InBulletPoint('P1',) \u2227 OnTop('P0', 'P1') \u2227 \u00acXDimCovers('P0', 'P1') \u2227 XDimCovers('P2', 'P1') \u2227 InBulletPoint('P2',)",
+                    11.055196122315259
+                ]
+            ]
+        }
+    }
+}

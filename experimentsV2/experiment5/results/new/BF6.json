@@ -1,0 +1,1517 @@
+{
+    "settings": {
+        "beam size": 1,
+        "min significance": 3,
+        "nb pages": 7,
+        "all pdf names": [
+            "BF6_0",
+            "BF6_1",
+            "BF6_2",
+            "BF6_3",
+            "BF6_4",
+            "BF6_5",
+            "BF6_6"
+        ],
+        "nb pages filtered": 7,
+        "all filtered names": [
+            "BF6_0",
+            "BF6_1",
+            "BF6_2",
+            "BF6_3",
+            "BF6_4",
+            "BF6_5",
+            "BF6_6"
+        ]
+    },
+    "data": {
+        "1": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 90,
+                    "nb_false_positives": 220,
+                    "nb_false_negatives": 27,
+                    "f1_score": 0.4215456674473068
+                },
+                "Together": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 117,
+                    "nb_false_negatives": 0,
+                    "f1_score": 0.0
+                }
+            },
+            "time": 0.052992820739746094,
+            "selected slide": "BF6_5",
+            "selected slides:": [
+                "BF6_5"
+            ],
+            "selected heuristic value": [
+                0.0040283203125,
+                -Infinity,
+                -30
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "order_data": {
+                "BF6_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            5,
+                            1
+                        ],
+                        [
+                            5,
+                            2
+                        ]
+                    ]
+                },
+                "BF6_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            6,
+                            1
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            5,
+                            1
+                        ],
+                        [
+                            5,
+                            3
+                        ]
+                    ]
+                },
+                "BF6_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            8,
+                            0
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            8,
+                            3
+                        ],
+                        [
+                            9,
+                            8
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            0
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            3
+                        ],
+                        [
+                            8,
+                            1
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            9,
+                            6
+                        ],
+                        [
+                            8,
+                            2
+                        ],
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            9,
+                            7
+                        ],
+                        [
+                            8,
+                            5
+                        ],
+                        [
+                            9,
+                            4
+                        ]
+                    ]
+                },
+                "BF6_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            11,
+                            7
+                        ],
+                        [
+                            10,
+                            5
+                        ],
+                        [
+                            10,
+                            8
+                        ],
+                        [
+                            11,
+                            2
+                        ],
+                        [
+                            10,
+                            0
+                        ],
+                        [
+                            10,
+                            6
+                        ],
+                        [
+                            11,
+                            5
+                        ],
+                        [
+                            10,
+                            3
+                        ],
+                        [
+                            10,
+                            9
+                        ],
+                        [
+                            10,
+                            9
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            11,
+                            0
+                        ],
+                        [
+                            10,
+                            4
+                        ],
+                        [
+                            11,
+                            3
+                        ],
+                        [
+                            10,
+                            1
+                        ],
+                        [
+                            10,
+                            7
+                        ],
+                        [
+                            11,
+                            9
+                        ],
+                        [
+                            11,
+                            6
+                        ],
+                        [
+                            11,
+                            4
+                        ],
+                        [
+                            10,
+                            2
+                        ]
+                    ]
+                },
+                "BF6_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            8,
+                            5
+                        ]
+                    ]
+                },
+                "BF6_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            14,
+                            4
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            13,
+                            2
+                        ],
+                        [
+                            13,
+                            5
+                        ],
+                        [
+                            13,
+                            11
+                        ],
+                        [
+                            13,
+                            11
+                        ],
+                        [
+                            13,
+                            8
+                        ],
+                        [
+                            14,
+                            6
+                        ],
+                        [
+                            14,
+                            3
+                        ],
+                        [
+                            14,
+                            9
+                        ],
+                        [
+                            14,
+                            12
+                        ],
+                        [
+                            13,
+                            4
+                        ],
+                        [
+                            13,
+                            1
+                        ],
+                        [
+                            13,
+                            7
+                        ],
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            14,
+                            2
+                        ],
+                        [
+                            14,
+                            5
+                        ],
+                        [
+                            14,
+                            11
+                        ],
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            13,
+                            3
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            13,
+                            6
+                        ],
+                        [
+                            13,
+                            12
+                        ],
+                        [
+                            13,
+                            12
+                        ]
+                    ]
+                },
+                "BF6_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            8,
+                            0
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            8,
+                            3
+                        ],
+                        [
+                            9,
+                            8
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            0
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            3
+                        ],
+                        [
+                            8,
+                            1
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            9,
+                            6
+                        ],
+                        [
+                            8,
+                            2
+                        ],
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            9,
+                            7
+                        ],
+                        [
+                            8,
+                            5
+                        ],
+                        [
+                            9,
+                            4
+                        ]
+                    ]
+                }
+            }
+        },
+        "2": {
+            "scores": {
+                "DirectlyFollows": {
+                    "nb_true_positives": 90,
+                    "nb_false_positives": 220,
+                    "nb_false_negatives": 27,
+                    "f1_score": 0.4215456674473068
+                },
+                "Together": {
+                    "nb_true_positives": 0,
+                    "nb_false_positives": 117,
+                    "nb_false_negatives": 0,
+                    "f1_score": 0.0
+                }
+            },
+            "time": 0.10399293899536133,
+            "selected slide": "BF6_3",
+            "selected slides:": [
+                "BF6_5",
+                "BF6_3"
+            ],
+            "selected heuristic value": [
+                0.021240234375,
+                -Infinity,
+                -24
+            ],
+            "rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "filtered rules": {
+                "DirectlyFollows": [
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "DirectlyFollows('P0', 'P1') <-- Text('P0',) \u2227 YDimBefore('P0', 'P1')",
+                        1
+                    ]
+                ],
+                "Together": [
+                    [
+                        "Together('P0', 'P1') <-- XDimBefore('P1', 'P0') \u2227 \u00acText('P0',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimCovers('P0', 'P1')",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimEquals('P0', 'P2') \u2227 Text('P1',)",
+                        1
+                    ],
+                    [
+                        "Together('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 \u00acText('P0',)",
+                        1
+                    ]
+                ]
+            },
+            "order_data": {
+                "BF6_0": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        [
+                            5
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            5,
+                            0
+                        ],
+                        [
+                            5,
+                            3
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            5,
+                            1
+                        ],
+                        [
+                            5,
+                            2
+                        ]
+                    ]
+                },
+                "BF6_1": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        [
+                            4
+                        ],
+                        [
+                            5
+                        ],
+                        [
+                            6
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            6,
+                            1
+                        ],
+                        [
+                            5,
+                            4
+                        ],
+                        [
+                            5,
+                            1
+                        ],
+                        [
+                            5,
+                            3
+                        ]
+                    ]
+                },
+                "BF6_2": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            8,
+                            0
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            8,
+                            3
+                        ],
+                        [
+                            9,
+                            8
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            0
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            3
+                        ],
+                        [
+                            8,
+                            1
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            9,
+                            6
+                        ],
+                        [
+                            8,
+                            2
+                        ],
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            9,
+                            7
+                        ],
+                        [
+                            8,
+                            5
+                        ],
+                        [
+                            9,
+                            4
+                        ]
+                    ]
+                },
+                "BF6_3": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        [
+                            10
+                        ],
+                        [
+                            11
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            11,
+                            1
+                        ],
+                        [
+                            11,
+                            7
+                        ],
+                        [
+                            10,
+                            5
+                        ],
+                        [
+                            10,
+                            8
+                        ],
+                        [
+                            11,
+                            2
+                        ],
+                        [
+                            10,
+                            0
+                        ],
+                        [
+                            10,
+                            6
+                        ],
+                        [
+                            11,
+                            5
+                        ],
+                        [
+                            10,
+                            3
+                        ],
+                        [
+                            10,
+                            9
+                        ],
+                        [
+                            10,
+                            9
+                        ],
+                        [
+                            11,
+                            8
+                        ],
+                        [
+                            11,
+                            0
+                        ],
+                        [
+                            10,
+                            4
+                        ],
+                        [
+                            11,
+                            3
+                        ],
+                        [
+                            10,
+                            1
+                        ],
+                        [
+                            10,
+                            7
+                        ],
+                        [
+                            11,
+                            9
+                        ],
+                        [
+                            11,
+                            6
+                        ],
+                        [
+                            11,
+                            4
+                        ],
+                        [
+                            10,
+                            2
+                        ]
+                    ]
+                },
+                "BF6_4": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        [
+                            7
+                        ],
+                        [
+                            8
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            8,
+                            5
+                        ]
+                    ]
+                },
+                "BF6_5": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ],
+                        [
+                            13
+                        ],
+                        [
+                            14
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            14,
+                            4
+                        ],
+                        [
+                            14,
+                            1
+                        ],
+                        [
+                            14,
+                            7
+                        ],
+                        [
+                            14,
+                            10
+                        ],
+                        [
+                            13,
+                            2
+                        ],
+                        [
+                            13,
+                            5
+                        ],
+                        [
+                            13,
+                            11
+                        ],
+                        [
+                            13,
+                            11
+                        ],
+                        [
+                            13,
+                            8
+                        ],
+                        [
+                            14,
+                            6
+                        ],
+                        [
+                            14,
+                            3
+                        ],
+                        [
+                            14,
+                            9
+                        ],
+                        [
+                            14,
+                            12
+                        ],
+                        [
+                            13,
+                            4
+                        ],
+                        [
+                            13,
+                            1
+                        ],
+                        [
+                            13,
+                            7
+                        ],
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            13,
+                            10
+                        ],
+                        [
+                            14,
+                            2
+                        ],
+                        [
+                            14,
+                            5
+                        ],
+                        [
+                            14,
+                            11
+                        ],
+                        [
+                            14,
+                            8
+                        ],
+                        [
+                            13,
+                            3
+                        ],
+                        [
+                            13,
+                            9
+                        ],
+                        [
+                            13,
+                            6
+                        ],
+                        [
+                            13,
+                            12
+                        ],
+                        [
+                            13,
+                            12
+                        ]
+                    ]
+                },
+                "BF6_6": {
+                    "sequential_order_found_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ]
+                    ],
+                    "sequential_order_true_examples": [
+                        [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ],
+                        [
+                            8
+                        ],
+                        [
+                            9
+                        ]
+                    ],
+                    "all_included_found": true,
+                    "all_included_true": true,
+                    "contradictions": [
+                        [
+                            9,
+                            2
+                        ],
+                        [
+                            8,
+                            0
+                        ],
+                        [
+                            9,
+                            5
+                        ],
+                        [
+                            8,
+                            3
+                        ],
+                        [
+                            9,
+                            8
+                        ],
+                        [
+                            8,
+                            6
+                        ],
+                        [
+                            9,
+                            0
+                        ],
+                        [
+                            8,
+                            4
+                        ],
+                        [
+                            9,
+                            3
+                        ],
+                        [
+                            8,
+                            1
+                        ],
+                        [
+                            8,
+                            7
+                        ],
+                        [
+                            9,
+                            6
+                        ],
+                        [
+                            8,
+                            2
+                        ],
+                        [
+                            9,
+                            1
+                        ],
+                        [
+                            9,
+                            7
+                        ],
+                        [
+                            8,
+                            5
+                        ],
+                        [
+                            9,
+                            4
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}

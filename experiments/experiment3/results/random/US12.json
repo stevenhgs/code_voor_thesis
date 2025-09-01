@@ -1,0 +1,402 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 10,
+        "all pdf names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_7",
+            "US12_8",
+            "US12_9"
+        ],
+        "nb pages filtered": 9,
+        "all filtered names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_8",
+            "US12_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 0.00400543212890625,
+            "selected slide": "US12_4",
+            "selected slides:": [
+                "US12_4"
+            ],
+            "selected heuristic value": [
+                0.08149458125307052,
+                0.10943206046080423,
+                0.7667755285515824
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 0.11200308799743652,
+            "selected slide": "US12_8",
+            "selected slides:": [
+                "US12_4",
+                "US12_8"
+            ],
+            "selected heuristic value": [
+                0.06591148038826766,
+                0.36678771737357585,
+                0.25202885808438125
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 7,
+            "FP": 27,
+            "FN": 27,
+            "F1": 0.3181818181818182,
+            "time": 0.6750142574310303,
+            "selected slide": "US12_5",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5"
+            ],
+            "selected heuristic value": [
+                0.14890359691216393,
+                0.964863728176758,
+                0.5385090354648582
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 YDimBeforeClosest('P0', 'P1')",
+                    10.679648929094816
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimOverlapsStart('P0', 'P1') \u2227 XDimCovers('P1', 'P0') \u2227 YDimBeforeClosest('P0', 'P1')",
+                    10.679648929094816
+                ]
+            ]
+        },
+        "4": {
+            "TP": 24,
+            "FP": 10,
+            "FN": 10,
+            "F1": 0.7619047619047619,
+            "time": 3.325343132019043,
+            "selected slide": "US12_9",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9"
+            ],
+            "selected heuristic value": [
+                0.31338698036607915,
+                0.05799336226480556,
+                0.4783211745723316
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P1', 'P0') \u2227 YDimBefore('P2', 'P0')",
+                    11.361296905437948
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    22.722593810875896
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P1', 'P0') \u2227 YDimBefore('P2', 'P0')",
+                    11.361296905437948
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    22.722593810875896
+                ]
+            ]
+        },
+        "5": {
+            "TP": 24,
+            "FP": 10,
+            "FN": 10,
+            "F1": 0.7272727272727273,
+            "time": 6.551813840866089,
+            "selected slide": "US12_0",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9",
+                "US12_0"
+            ],
+            "selected heuristic value": [
+                0.04351551650733476,
+                0.6203946143050473,
+                0.5854898591026533
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 Text('P1',)",
+                    23.292739478622806
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    11.646369739311403
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 Text('P1',)",
+                    23.292739478622806
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    11.646369739311403
+                ]
+            ]
+        },
+        "6": {
+            "TP": 24,
+            "FP": 10,
+            "FN": 10,
+            "F1": 0.7619047619047619,
+            "time": 9.652632713317871,
+            "selected slide": "US12_2",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9",
+                "US12_0",
+                "US12_2"
+            ],
+            "selected heuristic value": [
+                0.04595105737107974,
+                0.7205853207422995,
+                0.4610845288641964
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    11.714127472272603
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    23.428254944545206
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    11.714127472272603
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 YDimOverlapsStart('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    23.428254944545206
+                ]
+            ]
+        },
+        "7": {
+            "TP": 24,
+            "FP": 10,
+            "FN": 10,
+            "F1": 0.7272727272727273,
+            "time": 13.498997211456299,
+            "selected slide": "US12_3",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9",
+                "US12_0",
+                "US12_2",
+                "US12_3"
+            ],
+            "selected heuristic value": [
+                0.247459805601425,
+                0.0887414650646351,
+                0.2546673097017933
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 Text('P1',)",
+                    28.974126398101596
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    14.487063199050798
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 Text('P1',)",
+                    28.974126398101596
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- XDimEquals('P0', 'P1') \u2227 YDimBefore('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    14.487063199050798
+                ]
+            ]
+        },
+        "8": {
+            "TP": 24,
+            "FP": 10,
+            "FN": 10,
+            "F1": 0.7868852459016393,
+            "time": 17.90819525718689,
+            "selected slide": "US12_6",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9",
+                "US12_0",
+                "US12_2",
+                "US12_3",
+                "US12_6"
+            ],
+            "selected heuristic value": [
+                0.33518410653180697,
+                0.5659274676479025,
+                0.10009108135209588
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    17.77587802976918
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    29.626463382948636
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    17.77587802976918
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    29.626463382948636
+                ]
+            ]
+        },
+        "9": {
+            "TP": 30,
+            "FP": 4,
+            "FN": 4,
+            "F1": 0.821917808219178,
+            "time": 24.9743013381958,
+            "selected slide": "US12_1",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9",
+                "US12_0",
+                "US12_2",
+                "US12_3",
+                "US12_6",
+                "US12_1"
+            ],
+            "selected heuristic value": [
+                0.8124592360378348,
+                0.2868199583055647,
+                0.041648290906440844
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    20.55538525418071
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    35.23780329288122
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1')",
+                    10.574574229174653
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0')",
+                    20.55538525418071
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    35.23780329288122
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1')",
+                    10.574574229174653
+                ]
+            ]
+        },
+        "10": {
+            "TP": 19,
+            "FP": 15,
+            "FN": 15,
+            "F1": 0.7169811320754716,
+            "time": 33.721153020858765,
+            "selected slide": "US12_0",
+            "selected slides:": [
+                "US12_4",
+                "US12_8",
+                "US12_5",
+                "US12_9",
+                "US12_0",
+                "US12_2",
+                "US12_3",
+                "US12_6",
+                "US12_1",
+                "US12_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    14.741305283180253
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    41.27565479290471
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBefore('P0', 'P1') \u2227 XDimEquals('P0', 'P1') \u2227 YDimBefore('P2', 'P0') \u2227 XDimBefore('P3', 'P2')",
+                    14.741305283180253
+                ],
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 ClosestUnderAndOverlap('P0', 'P2') \u2227 ClosestUnderAndOverlap('P1', 'P3')",
+                    41.27565479290471
+                ]
+            ]
+        }
+    }
+}

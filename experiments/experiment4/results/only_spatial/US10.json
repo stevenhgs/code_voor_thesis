@@ -1,0 +1,949 @@
+{
+    "settings": {
+        "beam size": 5,
+        "min significance": 10,
+        "nb pages": 24,
+        "all pdf names": [
+            "US10_0",
+            "US10_1",
+            "US10_2",
+            "US10_3",
+            "US10_4",
+            "US10_5",
+            "US10_6",
+            "US10_7",
+            "US10_8",
+            "US10_9",
+            "US10_10",
+            "US10_11",
+            "US10_12",
+            "US10_13",
+            "US10_14",
+            "US10_15",
+            "US10_16",
+            "US10_17",
+            "US10_18",
+            "US10_19",
+            "US10_20",
+            "US10_21",
+            "US10_22",
+            "US10_23"
+        ],
+        "nb pages filtered": 23,
+        "all filtered names": [
+            "US10_0",
+            "US10_1",
+            "US10_2",
+            "US10_3",
+            "US10_4",
+            "US10_5",
+            "US10_6",
+            "US10_7",
+            "US10_8",
+            "US10_9",
+            "US10_10",
+            "US10_11",
+            "US10_12",
+            "US10_13",
+            "US10_15",
+            "US10_16",
+            "US10_17",
+            "US10_18",
+            "US10_19",
+            "US10_20",
+            "US10_21",
+            "US10_22",
+            "US10_23"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 69,
+            "FN": 69,
+            "F1": 0.0,
+            "time": 0.02199864387512207,
+            "selected slide": "US10_15",
+            "selected slides:": [
+                "US10_15"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -19
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 69,
+            "FN": 69,
+            "F1": 0.0,
+            "time": 0.6263985633850098,
+            "selected slide": "US10_10",
+            "selected slides:": [
+                "US10_15",
+                "US10_10"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -17
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 69,
+            "FN": 69,
+            "F1": 0.0,
+            "time": 1.6317853927612305,
+            "selected slide": "US10_4",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 0,
+            "FP": 69,
+            "FN": 69,
+            "F1": 0.0,
+            "time": 3.21014142036438,
+            "selected slide": "US10_11",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "5": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 6.738195896148682,
+            "selected slide": "US10_12",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.055586122084677
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.055586122084677
+                ]
+            ]
+        },
+        "6": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 11.748082637786865,
+            "selected slide": "US10_2",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.371995323822352
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.371995323822352
+                ]
+            ]
+        },
+        "7": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 18.2212553024292,
+            "selected slide": "US10_13",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.296020061808795
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.296020061808795
+                ]
+            ]
+        },
+        "8": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 24.9175021648407,
+            "selected slide": "US10_20",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -15
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.391522485750484
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.391522485750484
+                ]
+            ]
+        },
+        "9": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 32.4268696308136,
+            "selected slide": "US10_5",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.132298219822795
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.132298219822795
+                ]
+            ]
+        },
+        "10": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 40.23172450065613,
+            "selected slide": "US10_8",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.307647778075115
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.307647778075115
+                ]
+            ]
+        },
+        "11": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 48.28407049179077,
+            "selected slide": "US10_1",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.34672381179294
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.34672381179294
+                ]
+            ]
+        },
+        "12": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 56.98574161529541,
+            "selected slide": "US10_19",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.408399044005872
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.408399044005872
+                ]
+            ]
+        },
+        "13": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 65.85000562667847,
+            "selected slide": "US10_21",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.440280344308965
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.440280344308965
+                ]
+            ]
+        },
+        "14": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 75.7389509677887,
+            "selected slide": "US10_7",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.225625770915553
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.225625770915553
+                ]
+            ]
+        },
+        "15": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 85.87828302383423,
+            "selected slide": "US10_22",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -11
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.332684723470386
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.332684723470386
+                ]
+            ]
+        },
+        "16": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 96.43708634376526,
+            "selected slide": "US10_3",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.212247255368869
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- OnTop('P0', 'P1') \u2227 YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P1')",
+                    10.212247255368869
+                ]
+            ]
+        },
+        "17": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08108108108108109,
+            "time": 107.3794641494751,
+            "selected slide": "US10_23",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.168845720256549
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P2', 'P1')",
+                    10.168845720256549
+                ]
+            ]
+        },
+        "18": {
+            "TP": 4,
+            "FP": 65,
+            "FN": 65,
+            "F1": 0.1095890410958904,
+            "time": 121.11090207099915,
+            "selected slide": "US10_9",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBefore('P0', 'P3')",
+                    13.664751166125987
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P0') \u2227 XDimBefore('P0', 'P3')",
+                    13.664751166125987
+                ]
+            ]
+        },
+        "19": {
+            "TP": 4,
+            "FP": 65,
+            "FN": 65,
+            "F1": 0.1095890410958904,
+            "time": 136.9600703716278,
+            "selected slide": "US10_18",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9",
+                "US10_18"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -12
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P0', 'P3')",
+                    13.783264094672862
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 XDimBefore('P2', 'P0') \u2227 OnTop('P0', 'P1') \u2227 XDimBefore('P0', 'P3')",
+                    13.783264094672862
+                ]
+            ]
+        },
+        "20": {
+            "TP": 0,
+            "FP": 69,
+            "FN": 69,
+            "F1": 0.0,
+            "time": 143.40509963035583,
+            "selected slide": "US10_0",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9",
+                "US10_18",
+                "US10_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -7
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "21": {
+            "TP": 0,
+            "FP": 69,
+            "FN": 69,
+            "F1": 0.0,
+            "time": 149.8650507926941,
+            "selected slide": "US10_6",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9",
+                "US10_18",
+                "US10_0",
+                "US10_6"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -6
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "22": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08333333333333333,
+            "time": 164.21260285377502,
+            "selected slide": "US10_16",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9",
+                "US10_18",
+                "US10_0",
+                "US10_6",
+                "US10_16"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -4
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                    10.385255150933421
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                    10.385255150933421
+                ]
+            ]
+        },
+        "23": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08333333333333333,
+            "time": 179.79865670204163,
+            "selected slide": "US10_17",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9",
+                "US10_18",
+                "US10_0",
+                "US10_6",
+                "US10_16",
+                "US10_17"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -3
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                    10.39645975574431
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                    10.39645975574431
+                ]
+            ]
+        },
+        "24": {
+            "TP": 3,
+            "FP": 66,
+            "FN": 66,
+            "F1": 0.08333333333333333,
+            "time": 194.62510657310486,
+            "selected slide": "US10_0",
+            "selected slides:": [
+                "US10_15",
+                "US10_10",
+                "US10_4",
+                "US10_11",
+                "US10_12",
+                "US10_2",
+                "US10_13",
+                "US10_20",
+                "US10_5",
+                "US10_8",
+                "US10_1",
+                "US10_19",
+                "US10_21",
+                "US10_7",
+                "US10_22",
+                "US10_3",
+                "US10_23",
+                "US10_9",
+                "US10_18",
+                "US10_0",
+                "US10_6",
+                "US10_16",
+                "US10_17",
+                "US10_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                    10.402741237833347
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimCovers('P1', 'P0') \u2227 \u00acOnTop('P1', 'P0') \u2227 XDimBefore('P2', 'P1') \u2227 XDimCovers('P1', 'P0')",
+                    10.402741237833347
+                ]
+            ]
+        }
+    }
+}

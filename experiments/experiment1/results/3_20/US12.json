@@ -1,0 +1,298 @@
+{
+    "settings": {
+        "beam size": 3,
+        "min significance": 20,
+        "nb pages": 10,
+        "all pdf names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_7",
+            "US12_8",
+            "US12_9"
+        ],
+        "nb pages filtered": 9,
+        "all filtered names": [
+            "US12_0",
+            "US12_1",
+            "US12_2",
+            "US12_3",
+            "US12_4",
+            "US12_5",
+            "US12_6",
+            "US12_8",
+            "US12_9"
+        ]
+    },
+    "data": {
+        "1": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 0.003963947296142578,
+            "selected slide": "US12_5",
+            "selected slides:": [
+                "US12_5"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -16
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "2": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 0.2916259765625,
+            "selected slide": "US12_1",
+            "selected slides:": [
+                "US12_5",
+                "US12_1"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -14
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "3": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 0.79180908203125,
+            "selected slide": "US12_3",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -13
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "4": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 1.4227664470672607,
+            "selected slide": "US12_2",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "5": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 2.173218011856079,
+            "selected slide": "US12_6",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2",
+                "US12_6"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [],
+            "filtered rules": []
+        },
+        "6": {
+            "TP": 7,
+            "FP": 27,
+            "FN": 27,
+            "F1": 0.3333333333333333,
+            "time": 4.313930988311768,
+            "selected slide": "US12_8",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2",
+                "US12_6",
+                "US12_8"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -10
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.795512929599134
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.795512929599134
+                ]
+            ]
+        },
+        "7": {
+            "TP": 7,
+            "FP": 27,
+            "FN": 27,
+            "F1": 0.3333333333333333,
+            "time": 6.693346738815308,
+            "selected slide": "US12_4",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -9
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.61859029044097
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.61859029044097
+                ]
+            ]
+        },
+        "8": {
+            "TP": 7,
+            "FP": 27,
+            "FN": 27,
+            "F1": 0.3333333333333333,
+            "time": 9.318865537643433,
+            "selected slide": "US12_0",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4",
+                "US12_0"
+            ],
+            "selected heuristic value": [
+                0.0,
+                -Infinity,
+                -3
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.361550163725937
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.361550163725937
+                ]
+            ]
+        },
+        "9": {
+            "TP": 7,
+            "FP": 27,
+            "FN": 27,
+            "F1": 0.3333333333333333,
+            "time": 12.114061117172241,
+            "selected slide": "US12_9",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4",
+                "US12_0",
+                "US12_9"
+            ],
+            "selected heuristic value": [
+                0.015625,
+                1.0,
+                -6
+            ],
+            "rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.417819053471252
+                ]
+            ],
+            "filtered rules": [
+                [
+                    "DirectlyFollows('P0', 'P1') <-- YDimBeforeClosest('P0', 'P1') \u2227 XDimCovers('P0', 'P1') \u2227 YDimOverlapsStart('P1', 'P2')",
+                    20.417819053471252
+                ]
+            ]
+        },
+        "10": {
+            "TP": 0,
+            "FP": 34,
+            "FN": 34,
+            "F1": 0.0,
+            "time": 13.705481052398682,
+            "selected slide": "US12_0",
+            "selected slides:": [
+                "US12_5",
+                "US12_1",
+                "US12_3",
+                "US12_2",
+                "US12_6",
+                "US12_8",
+                "US12_4",
+                "US12_0",
+                "US12_9",
+                "US12_0"
+            ],
+            "selected heuristic value": [
+                Infinity,
+                Infinity,
+                0
+            ],
+            "rules": [],
+            "filtered rules": []
+        }
+    }
+}
